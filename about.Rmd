@@ -1,5 +1,61 @@
 ---
-title: "About This Website"
+title: <h1>About me</h1>
 ---
 
-More about this website.
+<div class = "row">
+
+<div class = "col-md-5">
+Docente ocasional.    
+[Facultad de Ciencias Agrarias](https://cienciasagrarias.medellin.unal.edu.co/)  
+[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)  
+email: edavidja@unal.edu.co  
+</div>
+
+<div class = "col-md-4">
+```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
+library(png)
+library(grid)
+img <- readPNG("images/logo_unal.png")
+grid.raster(img)
+```
+</div>
+</div>
+
+## Education
+
+  - [Maestría en Ciencias - Estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=110263100000500111100&Itemid=164) 2017 - actual.
+  - [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=110253100000500111100&Itemid=163), 2016.
+  - [Zootecnista - Universidad Nacional de Colombia sede Medellín](https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia), 2015
+
+## Teaching
+
+  
+  - 2018-02
+      - [Bioestadística 1](https://bioestadistica.github.io/)
+      - Introducción al análisis de datos con R - Nivel 1
+      - Introducción al análisis de datos con R - Nivel 2 (próximo a empezar)
+  - 2018-01
+      - [Bioestadística 1](https://bioestadistica.github.io/)
+      - Introducción al análisis de datos con R - Nivel 1
+
+## Experience  
+
+  - Consultoría estadística
+      - Análisis de datos de interés zootécnico en empresas del sector agrario en Colombia.
+      - Análisis estadístico de pruebas microbiológicas en calidad sanitaria de la carne.
+      - Aplicación estadística a parámetros de bienestar animal en equinos.
+  - Participación en planeación y formulación de proyectos de investigación
+      - Modelación de curvas de crecimiento en bovinos criollos colombianos.
+      - Análisis bioinformático de secuencias.
+  - Diseño y análisis estadístico de experimentos
+      - Experimentación agronómica
+      - Toma de datos
+      - Uso de modelos probabilísticos
+  - Software para análisis de datos
+      - [R](https://cran.r-project.org/)
+      - [Python](https://www.python.org/)
+      - [Julia](https://julialang.org/)
+      - Entornos de desarrollo integrado (IDE)
+          - [RStudio](https://www.rstudio.com/)
+          - [Jupyter](http://jupyter.org/)
+          - [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
