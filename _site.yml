@@ -1,9 +1,16 @@
-name: "my-website"
+name: "Edimer David Jaramillo"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Edimer David Jaramillo"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: style.css     

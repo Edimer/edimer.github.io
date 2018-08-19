@@ -1,5 +1,6 @@
 ---
-title: "My Website"
+title: ""
 ---
 
-Hello, Website!
+<center> <h1> ¡Welcome to my webpage! </h1> </center>
+
