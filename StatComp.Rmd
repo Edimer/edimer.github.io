@@ -14,7 +14,7 @@ knitr::include_graphics("images/R.jpeg")
       - [ICFES 2016-02: respuestas específicas](https://estudior.github.io/guias_descriptiva/12.1_RespuestasIcfes16_2.html)
       - [Casos y muertes por VIH en Colombia](https://rpubs.com/Edimer/326811)
       - [Visualización de series de tiempo (Arduino) con ggplot y plotly en R](https://rpubs.com/Edimer/404572)
-      - [ACP y Clúster: análisis exploratorio de medidas anatómicas Gorriones](/Stat/6_MetodosExploratorios.html)
+      - [ACP y Clúster: análisis exploratorio de medidas anatómicas en gorriones](/Stat/6_MetodosExploratorios.html)
   - **Biblioteca `genR`**
       - [Información]((https://github.com/Edimer/genR))
       - [Construcción de paquetes: nombre y hexagon sticker](/Stat/guiaBiblioteca.html)
