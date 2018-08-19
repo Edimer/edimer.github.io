@@ -20,7 +20,7 @@ knitr::include_graphics("images/R.jpeg")
       - [Construcción de paquetes: nombre y hexagon sticker](/Stat/guiaBiblioteca.html)
       - [Construcción de paquetes: `devtools`](/Stat/devtools.html)
 
-## Statistics with Python
+## Statistic with Python
 
 ```{r, echo=FALSE, fig.align="center", out.width="300", out.height="150"}
 knitr::include_graphics("images/python.png")
@@ -30,7 +30,7 @@ knitr::include_graphics("images/python.png")
       - [Series temporales con Jupyter](https://github.com/Edimer/Estadistica_con_R_Python/blob/master/Reporte_24horas_F.ipynb)
       - [Clasificación de planteles educativos (Colombia 2016-02)](/Stat/Educativos.html)
 
-## Statistics with Julia
+## Statistic with Julia
 
 ```{r, echo=FALSE, fig.align="center", out.width="300", out.height="150"}
 knitr::include_graphics("images/julia.png")
