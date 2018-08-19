@@ -9,5 +9,18 @@ title: <h1>Research</h1>
   - Data Science  
   - Time Series
   - Design and analysis of experiments
+
+## Other interests
+
+  - Complexity science
+  - Philosophy of mathematics
+      - Mathematical Logic
+      - History of mathematics
+      - Probability theory
+  - Mathematical and Computational Science
+      - Social insects
+      - Systems biology
+      - Non-quilibrium thermodynamics
+      - System dynamics
   
 ## Publications
