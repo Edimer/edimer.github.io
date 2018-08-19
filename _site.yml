@@ -7,6 +7,13 @@ navbar:
     href: index.html
   - text: About
     href: about.html
+  - text: Research
+    href: research.html 
+  - text: Statistical computing
+    href: StatComp.html
+  right:
+  - text: Contact
+    href: contact.html  
 output:
   html_document:
     theme: cosmo
@@ -16,4 +23,5 @@ output:
     css: style.css
     lib_dir: site_libs
     self_contained: no
-
+plugins:
+- jekyll-menus

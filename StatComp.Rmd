@@ -1,0 +1,29 @@
+---
+title: Statistical Computing
+---
+
+## Statistic with R
+
+```{r, echo=FALSE, fig.align="center", out.width="300", out.height="150"}
+knitr::include_graphics("images/R.jpeg")
+```
+
+  - Análisis exploratorio de resultados del ICFES 2016-02
+      - [Consultas a la base de datos](https://estudior.github.io/guias_descriptiva/11.1_Consultas_icfes_2016_02.pdf)
+      - [Respuestas generales](https://estudior.github.io/guias_descriptiva/12_RespuestasIcfes16_2.html)
+      - [Respuestas específicas](https://estudior.github.io/guias_descriptiva/12.1_RespuestasIcfes16_2.html)
+  - [Análisis exploratorio de casos y muertes por VIH en Colombia](https://rpubs.com/Edimer/326811)
+  - [Visualización de series de tiempo (Arduino) con ggplot y plotly en R](https://rpubs.com/Edimer/404572)
+  - [ACP y Clúster: análisis exploratorio de Gorriones](/Stat/6_MetodosExploratorios.html)
+
+## Statistics with Python
+
+```{r, echo=FALSE, fig.align="center", out.width="300", out.height="150"}
+knitr::include_graphics("images/python.png")
+```
+
+## Statistics with Julia
+
+```{r, echo=FALSE, fig.align="center", out.width="300", out.height="150"}
+knitr::include_graphics("images/julia.png")
+```

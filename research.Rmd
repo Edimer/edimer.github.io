@@ -1,0 +1,13 @@
+---
+title: <h1>Research</h1>
+---
+
+## Interests
+
+  - Bioinformatics
+  - Statistical computing
+  - Data Science  
+  - Time Series
+  - Design and analysis of experiments
+  
+## Publications

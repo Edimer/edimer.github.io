@@ -1,0 +1,25 @@
+---
+title: Contact
+---
+
+<div class = "row">
+
+<div class = "col-md-5">
+- email: edavidja@unal.edu.co
+- [Curriculum vitae Colciencias](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001631243)
+- [Edimer Github](https://github.com/Edimer)
+- [Edimer Rpubs](https://rpubs.com/Edimer)
+- Sitios relacionados
+    - [Bioestadística 1 UNAL Medellín](https://bioestadistica.github.io/)
+    - [Estudio R UNAL Medellín](https://estudior.github.io/)
+</div>
+
+<div class = "col-md-4">
+```{r fig.asp=0.5, echo=FALSE, fig.align='left'}
+library(png)
+library(grid)
+img <- readPNG("images/contacto.png")
+grid.raster(img)
+```
+</div>
+</div>  

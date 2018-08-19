@@ -1,0 +1,254 @@
+---
+title: "Análisis exploratorio por Componentes Principales y Clúster"
+subtitle: "Gorriones"
+author: "Edimer David Jaramillo"
+date: "Junio de 2018"
+output:
+  html_document:
+    df_print: paged
+    code_folding: hide    
+    toc: true
+    theme: flatly
+    highlight: pygments
+    css: style2.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      fig.align = "center",
+                      message = FALSE,
+                      error = FALSE,
+                      warning = FALSE,
+                      cache = TRUE,
+                      fig.width = 8.5,
+                      fig.height = 6.5)
+```
+
+# Análisis de Componentes Principales (ACP)
+
+## Generalidades 
+
+  - El ACP se constituye como una técnica exploratoria, en etapas iniciales del análisis de los datos.
+  - Su propósito fundamental es reducir la dimensión de un conjunto de datos.
+  - Transforma las variables originales en un conjunto de variables más pequeñas, las cuales son combinaciones lineales de las variables originales y retienen la mayor parte de la variabilidad presente en estas.
+  - Convierte un conjunto de variables posiblemente correlacionadas, en un conjunto de variables sin correlación lineal, denominadas _Componentes Principales (CP)._
+
+## Objetivos del ACP
+
+  - Obtener nuevas variables (componentes principales) que expresen la información contenida en los datos originales.
+  - Reducir la dimensionalidad de los datos.
+  - Reconocer patrones de comportamiento presentes en los datos.
+  - Contribuir a la interpretación de la información que poseen los datos.
+
+```{r, echo=FALSE, out.height="100px", out.width="600px"}
+knitr::include_graphics("images/pca4.png")
+```
+
+  - Nuevo sistema de coordenadas.
+  - Obtención de direcciones ortogonales (o componentes principales) con máxima variabilidad.
+  - Las nuevas direcciones proporcionan una dispersión simple y parsimoniosa de la estructura de covarianza de los datos.
+  - Las _componentes principales_ se pueden obtener a través de la matriz de varianzas-covarianzas o de la matriz de correlación.
+
+# Análisis de Clúster
+
+## Generalidades
+  
+  - Procedimiento que tiene como punto de partida un conjunto de datos que contiene información sobre una muestra de individuos e intenta reorganizarlos en grupos relativamente homogéneos a los que se llama conglomerados (clusters).
+  - Un conglomerado, grupo o clase es un conjunto de individuos con características similares.
+  - Es necesario una medida que indique la similaridad entre individuos u objetos.
+  - Es necesario un método para obtener los grupos
+  
+## Objetivos del Cluster
+  
+  - Clasificación
+  - Busca particionar un cojunto de objetos en grupos, de tal forma que los objetos de un mismo grupo sean similares y los objetos de grupos distintos sean diferentes.
+  
+## Medidas de similaridad
+  
+- **Métricas:** distancias
+- **Escala nominal** coeficientes de asociación
+- **Coeficientes de correlación**
+
+## Métodos de agrupamiento
+
+  - Métodos jerarquicos
+  - Métodos no jerarquicos o de partición
+  - Métodos de nubes dinámicas
+  - Métodos de clasificación difusa
+
+**Los métodos jerarquicos se clasifican en:**
+
+  - Aglomerativos
+  - Desaglomerativos 
+
+**Algunos de los métodos jerarquicos aglomerativos son:**
+
+  - Método de enlace simple o vecino más cercano
+  - Metodo de enlace completo o vecino más lejano
+  - Método de enlace promedio
+  - Método de Ward
+  
+# Ejemplo
+
+**Descripción del conjunto de datos (Gorriones.csv):** " ... el 1 de febrero del presente año (1898), cuando, después de una tormenta extraordinariamente severa de nieve, lluvia y aguanieve, varios gorriones ingleses fueron llevados al Laboratorio Anatómico de la Universidad de Brown. Setenta y dos de estas aves revivieron; sesenta y cuatro perecieron; ... ". " ... la tormenta fue de larga duración, y las aves fueron recogidas, no en una localidad, sino en varias localidades; ... ". **Este evento fue descrito por Hermon Bumpus (1898) como un ejemplo clásico de la selección natural en acción.** [Artículo científico](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1558-5646.1972.tb00171.x)
+
+## Descripción de variables
+
+  - **Sexo:** Machos (m) y hembras (f)
+  - **Edad:** Adulto (a) y joven (y)
+  - **Sobrevivió:** Sí (SI) y no (NO)
+  - **Longitud total (mm):** `LongitudTotal` (desdel la punta del pico hasta la punta de la cola)
+  - **Extensión de las alas (mm):** `ExteAlas` (de punta a punta de las alas extendidas)
+  - **Peso (gr):** peso del ave
+  - **Longitud del pico y la cabeza (mm):** `LonPicoCabe`
+  - **Longitud del húmero (pulgadas):** `LonHumero`
+  - **Longitud del fémur (pulgadas):** `LonFemur`
+  - **Longitud de tibia-tarso (pulgadas):** `LonTibTarso`
+  - **Ancho del cráneo (pulgadas):** `AncCraneo`
+  - **Longitud de la quilla (pulgadas):** `LonQuilla`
+  
+## Lectura de datos
+
+```{r, echo=TRUE}
+datos <- read.csv(file = "data//Gorriones.csv", dec = ",")
+datos
+```
+
+## Resumen de datos
+
+```{r}
+summary(datos[, 4:12])
+```
+
+## Matriz de dispersión y correlación (gráfico)
+
+```{r}
+library(psych)
+pairs.panels(datos[, 4:12],
+             hist.col = "gray45",
+             density = TRUE,
+             main = "Matriz de dispersión y correlación")
+```
+
+## Matriz de correlaciones
+
+```{r, echo=TRUE}
+cor(datos[, 4:12])
+```
+
+## Cálculo de las _componentes principales_
+
+```{r}
+acp <- princomp(datos[, 4:12], scale = TRUE, cor = TRUE)
+biplot(acp, cex = 0.7)
+```
+
+## Proporción de varianza
+
+```{r}
+summary(acp)
+```
+
+```{r}
+plot(acp$sdev, type="b", xlab = "Componente Principal",
+     ylab = "Desviación Estándar",
+     main = "Relación de la variabilidad retenida con el número de componentes")
+abline(v = 2, col = "blue", lty = 2, lwd = 0.8)
+```
+
+## Importancia de variables sobre las componentes
+
+```{r, echo=TRUE}
+loadings(acp)[,1:9]
+```
+
+## Puntajes de los invidividuos sobre las componentes
+
+```{r, echo=TRUE}
+head(acp$scores, n = 10)
+```
+
+## Concatenando resultados
+
+```{r, echo=TRUE}
+datos2 <- data.frame(datos, acp$scores[, c(1, 2)])
+datos2
+```
+
+## Proyección de aves sobre CP1 y CP2
+
+```{r}
+color <- c("magenta4",  "#66A61E")
+simbolos <- c(15, 17)
+with(datos2, plot(Comp.1, Comp.2, col = color[Sexo],
+                  pch = simbolos[Sobrevivio],
+                  cex = 1.5,  xlab = "CP1",
+                  ylab = "CP2",
+                  main = "Grupo de aves sobre las componentes principales 1 y 2"))
+legend("topleft", legend = c("Hembra", "Macho"), col = color, cex = 1, lwd =2)
+legend("topright", legend = c("Murió", "Sobrevió"), pch = simbolos,
+       col = "black", cex = 1)
+abline(h = 0, col = "red")
+abline(v = 0, col = "red")
+arrows(0, 0,
+       acp$loadings[, 1]*5,
+       acp$loadings[, 2]*5,
+       col = "red",
+       lwd = 2.5)
+text(acp$loadings[, 1]*5.2,
+     acp$loadings[, 2]*5.2,
+     row.names(acp$loadings),
+     cex = 1.3)
+```
+
+## Dendrograma (enlace completo o vecino más lejano)
+
+```{r}
+datosstd <- data.frame(scale(datos[, 4:12]))
+cluster1 <- hclust(dist(datosstd))
+plot(cluster1)
+```
+
+## Concatenando clúster con la base de datos
+
+```{r}
+datos2$grupo <- cutree(cluster1, 5)
+datos2
+```
+
+**Resumen numérico para cada clúster o grupo**
+
+```{r}
+lapply(split(datos2[, 4:12], datos2$grupo), FUN = summary)
+```
+
+## Proyecciones en el plano con los Cluster
+
+```{r}
+colores <- c("forestgreen", "blue")
+simbolos <- c(15, 16, 17, 18, 20)
+with(datos2, plot(Comp.1, Comp.2, col = colores[Sexo], pch = simbolos[grupo], 
+                  xlab = "Componente principal 1",
+                  ylab = "Componente principal 2", 
+                  main = "Grupos de aves sobre componentes principales 1 y 2 (sobrevivencia[SI, NO])", 
+                  cex = 1.7))
+legend("topright", legend = 1:5, pch = simbolos, col = "black", ncol = 2,
+       cex = 1.2, title = "Clúster")
+legend("topleft", legend = c("Hembra", "Macho"), col = colores, cex = 1,
+       lty =1, lwd =2, title = "Sexo")
+abline(h = 0, col = "red")
+abline(v = 0, col = "red")
+arrows(0, 0, acp$loadings[, 1]*5, acp$loadings[, 2]*5, col = "red", lwd = 2)
+text(acp$loadings[, 1]*5.2, acp$loadings[, 2]*5.2,
+     row.names(acp$loadings))
+text(datos2$Comp.1, datos2$Comp.2, labels = datos2$Sobrevivio, pos = 4,
+     cex = 0.6)
+```
+
+# Recursos de información
+
+  - [5 functions to do Principal Components Analysis in R](http://www.gastonsanchez.com/visually-enforced/how-to/2012/06/17/PCA-in-R/)
+  - [A Little Book of R For Multivariate
+Analysis](http://people.stat.sc.edu/hansont/stat730/Coghlan2014.pdf)
+  - [Análisis multivariado de datos en R](http://www.docentes.unal.edu.co/cepardot/docs/SimposiosEstadistica/PardoOrtiz04.pdf)
+  - [Data Science with R: Cluster Analysis](https://onepager.togaware.com/ClustersO.pdf)

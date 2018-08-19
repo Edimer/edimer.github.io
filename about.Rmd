@@ -31,11 +31,11 @@ grid.raster(img)
 
   
   - 2018-02
-      - [Bioestadística 1](https://bioestadistica.github.io/)
+      - Bioestadística 1
       - Introducción al análisis de datos con R - Nivel 1
       - Introducción al análisis de datos con R - Nivel 2 (próximo a empezar)
   - 2018-01
-      - [Bioestadística 1](https://bioestadistica.github.io/)
+      - Bioestadística 1
       - Introducción al análisis de datos con R - Nivel 1
 
 ## Experience  
