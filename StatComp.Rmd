@@ -16,7 +16,7 @@ knitr::include_graphics("images/R.jpeg")
       - [Visualización de series de tiempo (Arduino) con ggplot y plotly en R](https://rpubs.com/Edimer/404572)
       - [ACP y Clúster: análisis exploratorio de medidas anatómicas en gorriones](/Stat/6_MetodosExploratorios.html)
   - **Biblioteca `genR`**
-      - [Información]((https://github.com/Edimer/genR))
+      - [Información](https://github.com/Edimer/genR)
       - [Construcción de paquetes: nombre y hexagon sticker](/Stat/guiaBiblioteca.html)
       - [Construcción de paquetes: `devtools`](/Stat/devtools.html)
 
