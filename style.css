@@ -42,3 +42,7 @@ a {
 .navbar-brand {
   background-color: #01954f;
 }
+
+a:hover {
+    color: #2b2b2b;
+}
