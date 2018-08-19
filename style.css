@@ -23,6 +23,10 @@ h2 {
 a {
   color: #01954f;
 }
+
+a:hover {
+    color: #2b2b2b;
+}
  
 .navbar-default {
   background-color:#2b2b2b;
@@ -41,8 +45,4 @@ a {
 
 .navbar-brand {
   background-color: #01954f;
-}
-
-a:hover {
-    color: #2b2b2b;
 }
