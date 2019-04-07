@@ -5,15 +5,26 @@ navbar:
   left:
   - text: Home
     href: index.html
+    icon: fa-home
   - text: About
     href: about.html
+    icon: fa fa-graduation-cap
   - text: Research
-    href: research.html 
-  - text: Statistical computing
-    href: StatComp.html
+    href: research.html
+    icon: fa fa-university
+  - text: Statistical Computing
+    icon: fas fa-infinity
+    menu:
+      - text: Blog R
+        href: https://edimer-blogr.netlify.com/
+        icon: fa fa-bar-chart
+      - text: Blog Python
+        href: https://edimer-blogr.netlify.com/
+        icon: fa fa-area-chart
   right:
   - text: Contact
-    href: contact.html  
+    href: contact.html
+    icon: fa fa-comments
 output:
   html_document:
     theme: cosmo

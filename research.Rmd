@@ -22,5 +22,3 @@ title: <h1>Research</h1>
       - Systems biology
       - Non-quilibrium thermodynamics
       - System dynamics
-  
-## Publications
