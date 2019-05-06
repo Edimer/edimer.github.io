@@ -22,7 +22,7 @@ grid.raster(img)
 
 ## Education
 
-  - [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=110253100000500111100&Itemid=163), 2016.
+  - [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134), 2016.
   - [Zootecnia - Universidad Nacional de Colombia sede Medellín](https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia), 2015
 
 ## Teaching
