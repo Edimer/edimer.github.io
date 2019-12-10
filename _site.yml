@@ -13,6 +13,7 @@ navbar:
     href: research.html
     icon: fa fa-university
   - text: Statistical Computing
+    href: statistical_computing.html
     icon: fa fa-bar-chart
   right:
   - text: Contact
