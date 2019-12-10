@@ -8,6 +8,7 @@ title: <h1>About me</h1>
 Zootecnista    
 [Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)
 email: edavidja@unal.edu.co  
+<br>
 _______________________________________  
 Asistente de Investigación y Desarrollo  
 [Solla](https://www.solla.com/)  
@@ -19,6 +20,13 @@ email: edavid@solla.com
 library(png)
 library(grid)
 img <- readPNG("images/logo_unal.png")
+grid.raster(img)
+```
+
+```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
+library(png)
+library(grid)
+img <- readPNG("images/logo_solla.png")
 grid.raster(img)
 ```
 </div>
