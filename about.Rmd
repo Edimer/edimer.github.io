@@ -39,15 +39,12 @@ grid.raster(img)
 
 ## Teaching
 
-  - 2018-01
-      - Bioestadística 1
-      - Introducción al análisis de datos con R - Nivel 1
-  - 2018-02
-      - Bioestadística 1
-      - Introducción al análisis de datos con R - Nivel 1
-      - Introducción al análisis de datos con R - Nivel 2
-  - 2019-01
-      - Introducción al análisis de datos con R - Nivel 1      
+  - 2018
+      - Biostatistics 1
+      - Introduction to data analysis with R - Level 1
+      - Introduction to data analysis with R - Level 2
+  - 2019
+      - Introduction to data analysis with R - Level 1      
 
 ## Experience  
 
