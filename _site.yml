@@ -13,14 +13,7 @@ navbar:
     href: research.html
     icon: fa fa-university
   - text: Statistical Computing
-    icon: fas fa-infinity
-    menu:
-      - text: Blog R
-        href: https://edimer-blogr.netlify.com/
-        icon: fa fa-bar-chart
-      - text: Blog Python
-        href: https://edimer-blogr.netlify.com/
-        icon: fa fa-area-chart
+    icon: fa fa-bar-chart
   right:
   - text: Contact
     href: contact.html
