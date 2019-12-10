@@ -5,7 +5,7 @@ title: <h1>About me</h1>
 <div class = "row">
 
 <div class = "col-md-5">
-Zootecnista.    
+Zootecnista    
 [Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)
 email: edavidja@unal.edu.co  
 _______________________________________  
