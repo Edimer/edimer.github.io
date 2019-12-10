@@ -31,9 +31,12 @@ title: <h1></h1>
 
 ## Memory Chapters (Congress)
 
-<center>
-![](images/coming.gif)
-</center>
+- <tyear>Madrid, España (2019).</tyear> *Algoritmos de Machine Learning en detección de mastitis en vacas del trópico alto Colombiano.* [XI Jornadas de usuarios de R](http://r-es.org/XIjuR/pdf/LIBRO_RESUMENES_XI_Jornadas_de_Usuarios_R.pdf). *Edimer David Jaramillo*, *Óscar David Múnera Bedoya*, *Óliver Restrepo*, *Alexander Balbin Feria*, *Carolina Mesa*.
+- <tyear>Medellín, Colombia (2019).</tyear> *Asociación de parámetros zootécnicos en vacas Holstein en pastoreo a través de métodos multivariados.* [ENICIP 2019 - Nutrición y Alimentación.](https://aprendeenlinea.udea.edu.co/revistas/index.php/rccp/article/download/340344/20795109). *Edimer David Jaramillo*, *Jairo Andrés Tobón Peña*, *Óscar David Múnera Bedoya*, *Luis Miguél Gómez Osorio*, *Alexander Balbin Feria*.
+- <tyear>Belo Horizonte, Brasil (2015).</tyear> *Regression models to describe a growth curve in Lucerna breed and its crossbreedings.* [52ª Reunião Anual da Sociedade Brasileira de Zootecnia.](http://sbz.org.br/new/pt/documentos--anais-das-reunioes) *Edimer David Jaramillo*, *Luis Gabriel González Herrera*.
+- <tyear>La Habana, Cuba (2015).</tyear> *Descripción de la influencia de orden de parto sobre el crecimiento en animales de la raza Lucerna y sus cruces.* [V Congreso Internacional de producción animal tropical 2015.](http://www.cipav.org.co/pdf/VcongresoInternalProdTropAnim2015.pdf) *Edimer David Jaramillo*, *Luis Gabriel González Herrera*.
+- <tyear>Villavicencio, Colombia (2015).</tyear> *Efecto de época de nacimiento en la curva de crecimiento de la raza Lucerna, utilizando polinomios de Legendre*. [XVI Simposio Iberoamericano sobre conservación y utilización de recursos zoogenéticos - página 93.](https://conbiand2015colombia.jimdo.com/memorias/) *Edimer David Jaramillo*, *Luis Gabriel González Herrera*.
+- <tyear>Medellín, Colombia (2015).</tyear> *Description of the influence of time of birth, year of birth, farm, race, and their interactions over growth in Lucerne animals breed and its crosses.* [*ENICIP 2015 - Mejoramiento Genético*](https://aprendeenlinea.udea.edu.co/revistas/index.php/rccp/article/download/324952/20782520). *Edimer David Jaramillo*, *Luis Gabriel González Herrera*.
 
 ## Articles
 
