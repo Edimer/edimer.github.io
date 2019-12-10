@@ -46,3 +46,8 @@ a:hover {
 .navbar-brand {
   background-color: #01954f;
 }
+
+textbig {
+  color: black;
+  font-size: 40px;
+}

@@ -11,7 +11,7 @@ email: edavidja@unal.edu.co
 <br>
 _______________________________________  
 Asistente de Investigación y Desarrollo  
-[Solla](https://www.solla.com/)  
+[Solla S.A.](https://www.solla.com/)  
 email: edavid@solla.com
 </div>
 
@@ -34,20 +34,20 @@ grid.raster(img)
 
 ## Education
 
-  - [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134), 2016.
   - [Zootecnia - Universidad Nacional de Colombia sede Medellín](https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia), 2015
+  - [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134), 2016.  
 
 ## Teaching
 
-  - 2019-01
+  - 2018-01
+      - Bioestadística 1
       - Introducción al análisis de datos con R - Nivel 1
   - 2018-02
       - Bioestadística 1
       - Introducción al análisis de datos con R - Nivel 1
       - Introducción al análisis de datos con R - Nivel 2
-  - 2018-01
-      - Bioestadística 1
-      - Introducción al análisis de datos con R - Nivel 1
+  - 2019-01
+      - Introducción al análisis de datos con R - Nivel 1      
 
 ## Experience  
 
@@ -55,17 +55,16 @@ grid.raster(img)
       - Analysis of data of zootechnical interest in companies of the agricultural sector in Colombia.
       - Statistical analysis of microbiological tests on sanitary quality of meat.
       - Statistical application to parameters of animal welfare in horses.
-  - Participation in planning and formulation of research projects
-      - Modeling of growth curves in Colombian Creole cattle.
-      - Bioinformatic analysis of sequences.
-  - Design and statistical analysis of experiments
-      - Agronomic experimentation
-      - Data collection
-      - Use of probabilistic models
+  - Participation in planning and formulation of research projects.
+  - Machine Learning uses in agriculture. Pathology detection in cows, satellite image analysis and biomusicology.  
+  - Design and statistical analysis of experiments (agronomic experimentation, data collection, use of probabilistic models)
   - Software for data analysis
       - [R](https://cran.r-project.org/)
       - [Python](https://www.python.org/)
       - [Julia](https://julialang.org/)
+      - [TensorFlow](https://www.tensorflow.org/)
+      - [Keras](https://keras.io/)
+      - [H2o](https://www.h2o.ai/)
       - Integrated development environments (IDEs)
           - [RStudio](https://www.rstudio.com/)
           - [Jupyter](http://jupyter.org/)

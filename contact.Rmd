@@ -5,7 +5,9 @@ title: Contact
 <div class = "row">
 
 <div class = "col-md-5">
-- email: edavidja@unal.edu.co
+- email:
+    - edavidja@unal.edu.co
+    - edavid@solla.com
 - [Curriculum vitae Colciencias](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001631243)
 - [Edimer Github](https://github.com/Edimer)
 - [Edimer Rpubs](https://rpubs.com/Edimer)

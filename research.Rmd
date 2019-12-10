@@ -1,24 +1,42 @@
 ---
-title: <h1>Research</h1>
+title: <h1></h1>
 ---
 
 ## Interests
 
-  - Data Science  
-  - Statistical computing
+  - Data Science
+      - *Machine Learning*
+      - *Big Data*
+      - *Deep Learning*
+      - *Data Wrangling*
+      - *Data visualization*
+      - *Software development*
   - Bioinformatics  
   - Time Series
   - Design and analysis of experiments
 
-## Other interests
+## Investigation Group 
 
-  - Complexity science
-  - Philosophy of mathematics
-      - Mathematical Logic
-      - History of mathematics
-      - Probability theory
-  - Mathematical and Computational Science
-      - Social insects
-      - Systems biology
-      - Non-quilibrium thermodynamics
-      - System dynamics
+<div class = "row">
+<div class = "col-md-5">
+<br>
+<br>
+<br>
+<textbig>[Nutri-Solla](https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013946)</textbig>  
+</div>
+<div class = "col-md-4">
+![](images/group_inv3.gif)
+</div>
+</div>
+
+## Memory Chapters (Congress)
+
+<center>
+![](images/coming.gif)
+</center>
+
+## Articles
+
+<center>
+![](images/coming.gif)
+</center>
