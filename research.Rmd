@@ -25,7 +25,7 @@ title: <h1></h1>
 <textbig>[Nutri-Solla](https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013946)</textbig>  
 </div>
 <div class = "col-md-4">
-![](images/group_inv3.gif)
+![](images/group_inv5.gif)
 </div>
 </div>
 
