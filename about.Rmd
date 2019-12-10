@@ -6,8 +6,12 @@ title: <h1>About me</h1>
 
 <div class = "col-md-5">
 Zootecnista.    
-[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)  
+[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)
 email: edavidja@unal.edu.co  
+_______________________________________  
+Asistente de Investigación y Desarrollo  
+[Solla](https://www.solla.com/)  
+email: edavid@solla.com
 </div>
 
 <div class = "col-md-4">
