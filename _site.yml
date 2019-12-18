@@ -7,8 +7,14 @@ navbar:
     href: index.html
     icon: fa-home
   - text: About
-    href: about.html
-    icon: fa fa-graduation-cap
+    icon: fa fa-male
+    menu:
+    - text: About me
+      href: about.html
+      icon: fa fa-graduation-cap
+    - text: Curriculum vitae
+      href: cv_edimer.html
+      icon: fa fa-file-text-o  
   - text: Research
     href: research.html
     icon: fa fa-university
