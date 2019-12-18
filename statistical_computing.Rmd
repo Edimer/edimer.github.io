@@ -5,3 +5,41 @@ title: <h1></h1>
 <center>
 ![](images/coming.gif)
 </center>
+
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="https://www.securitymagazine.com/ext/resources/artificial-intelligence-3685928_1280.png?1559658311" alt="" style="width:100%">
+<div class="container">
+<h2>Document 1</h2>
+<p class="title">Statistics</p>
+<p>Description...</p>
+<p>https://rpubs.com/Edimer/520130</p>
+</div>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<img src="https://www.securitymagazine.com/ext/resources/artificial-intelligence-3685928_1280.png?1559658311" alt="" style="width:100%">
+<div class="container">
+<h2>Document 2</h2>
+<p class="title">Machine Learning</p>
+<p>Description...</p>
+<p>https://rpubs.com/Edimer/536034</p>
+</div>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<img src="https://www.securitymagazine.com/ext/resources/artificial-intelligence-3685928_1280.png?1559658311" alt="" style="width:100%">
+<div class="container">
+<h2>Document 3</h2>
+<p class="title">Regression Models</p>
+<p>Description...</p>
+<p>https://rpubs.com/Edimer/540368</p>
+</div>
+</div>
+</div>
+</div>
