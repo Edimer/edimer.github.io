@@ -56,7 +56,7 @@ tyear{
   color: #01954f;
 }
 
-/* Three columns side by side */
+/* Three columns side by side 
 .column {
   float: left;
   width: 33.3%;
@@ -64,7 +64,7 @@ tyear{
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
+/* Display the columns below each other instead of side by side on small screens 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -72,17 +72,17 @@ tyear{
   }
 }
 
-/* Add some shadows to create a card effect */
+/* Add some shadows to create a card effect 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
+/* Some left and right padding inside the container 
 .container {
   padding: 0 16px;
 }
 
-/* Clear floats */
+/* Clear floats 
 .container::after, .row::after {
   content: "";
   clear: both;
@@ -107,4 +107,52 @@ tyear{
 
 .button:hover {
   background-color: #555;
+}
+*/
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: bot
+    width: 100%;
+    display: block;
+    margin-bottoh;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
 }

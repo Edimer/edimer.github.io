@@ -2,44 +2,73 @@
 title: <h1></h1>
 ---
 
-<center>
-![](images/coming.gif)
-</center>
-
-<div class="row">
+<div class="col-container">
 <div class="column">
 <div class="card">
-<img src="https://www.securitymagazine.com/ext/resources/artificial-intelligence-3685928_1280.png?1559658311" alt="" style="width:100%">
-<div class="container">
-<h2>Document 1</h2>
-<p class="title">Statistics</p>
-<p>Description...</p>
-<p>https://rpubs.com/Edimer/520130</p>
-</div>
+<h3>Detección de oxalatos en orina</h3>
+<img src="images/img_documents/rpubs1.gif">
+<p>[Regresión Logística y Probit.](https://rpubs.com/Edimer/540368)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<img src="https://www.securitymagazine.com/ext/resources/artificial-intelligence-3685928_1280.png?1559658311" alt="" style="width:100%">
-<div class="container">
-<h2>Document 2</h2>
-<p class="title">Machine Learning</p>
-<p>Description...</p>
-<p>https://rpubs.com/Edimer/536034</p>
-</div>
+<h3>Machine Learning con R</h3>
+<br>
+<img src="images/img_documents/rpubs2.gif"><br>
+<p>[Ejemplo de uso: `caret` y `keras`.](https://rpubs.com/Edimer/536034)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<img src="https://www.securitymagazine.com/ext/resources/artificial-intelligence-3685928_1280.png?1559658311" alt="" style="width:100%">
-<div class="container">
-<h2>Document 3</h2>
-<p class="title">Regression Models</p>
-<p>Description...</p>
-<p>https://rpubs.com/Edimer/540368</p>
+<h3>Card 3</h3>
+<p>Some text</p>
+<p>Some text</p>
 </div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Card 4</h3>
+<p>Some text</p>
+<p>Some text</p>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="col-container">
+<div class="column">
+<div class="card">
+<h3>Detección de oxalatos en orina</h3>
+<img src="images/img_documents/rpubs1.gif">
+<p>[Regresión Logística y Probit.](https://rpubs.com/Edimer/540368)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Machine Learning con R</h3>
+<img src="images/img_documents/rpubs2.gif">
+<p>[Ejemplo de uso: `caret` y `keras`.](https://rpubs.com/Edimer/536034)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Card 3</h3>
+<p>Some text</p>
+<p>Some text</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Card 4</h3>
+<p>Some text</p>
+<p>Some text</p>
 </div>
 </div>
 </div>
