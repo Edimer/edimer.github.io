@@ -2,38 +2,39 @@
 title: <h1></h1>
 ---
 
+## <tyear>Statistical Learning</tyear>
+
 <div class="col-container">
-<div class="column">
-<div class="card">
-<h3>Detección de oxalatos en orina</h3>
-<img src="images/img_documents/rpubs1.gif">
-<p>[Regresión Logística y Probit.](https://rpubs.com/Edimer/540368)</p>
-</div>
-</div>
 
 <div class="column">
 <div class="card">
 <h3>Machine Learning con R</h3>
-<br>
-<img src="images/img_documents/rpubs2.gif"><br>
-<p>[Ejemplo de uso: `caret` y `keras`.](https://rpubs.com/Edimer/536034)</p>
+<img src="images/img_documents/machine2.png"><br>
+<p>[Ejemplo de uso: `caret` y `keras`](https://rpubs.com/Edimer/536034)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<h3>Card 3</h3>
-<p>Some text</p>
-<p>Some text</p>
+<h3>Clasificación no supervisada</h3>
+<img src="images/img_documents/unsupervised.png"><br> 
+<p>[Procesamiento raster con R](https://rpubs.com/Edimer/519971)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<h3>Card 4</h3>
-<p>Some text</p>
-<p>Some text</p>
+<h3>Clasificación supervisada</h3>
+<img src="images/img_documents/machine1.png"><br> 
+<p>[Clasificación de correos spam](https://rpubs.com/Edimer/534566)</p>
 </div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Detección de oxalatos en orina</h3>
+<img src="images/img_documents/rlogist.png">
+<p>[Regresión Logística y Probit](https://rpubs.com/Edimer/540368)</p>
 </div>
 </div>
 
@@ -42,33 +43,27 @@ title: <h1></h1>
 <div class="col-container">
 <div class="column">
 <div class="card">
-<h3>Detección de oxalatos en orina</h3>
-<img src="images/img_documents/rpubs1.gif">
-<p>[Regresión Logística y Probit.](https://rpubs.com/Edimer/540368)</p>
+<h3>Modelos de Regresión</h3>
+<img src="images/img_documents/reglineal2.png">
+<p>[Regresión lineal simple con R.](https://unal-semilleror-facca.github.io/Actividades/regsimple.html#1)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<h3>Machine Learning con R</h3>
-<img src="images/img_documents/rpubs2.gif">
-<p>[Ejemplo de uso: `caret` y `keras`.](https://rpubs.com/Edimer/536034)</p>
+<h3>Componentes Principales con R</h3>
+<img src="images/img_documents/acp.png">
+<p>[Ejemplo práctico en biología](https://estudior.github.io/guias_descriptiva/13_ACP_Gorriones.pdf)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<h3>Card 3</h3>
-<p>Some text</p>
-<p>Some text</p>
+<h3>Clusterización con R</h3>
+<img src="images/img_documents/cluster2.png">
+<p>[Ejemplo práctico en biología](https://estudior.github.io/guias_descriptiva/14_Cluster.html#(1))</p>
 </div>
 </div>
 
-<div class="column">
-<div class="card">
-<h3>Card 4</h3>
-<p>Some text</p>
-<p>Some text</p>
-</div>
-</div>
-</div>
+
+<tyear>___________________________________________________________________________________________________________</tyear>
