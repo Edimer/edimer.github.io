@@ -2,6 +2,7 @@
 title: <h1></h1>
 ---
 
+
 ## <tyear>Statistical Learning</tyear>
 
 <div class="col-container">
@@ -33,7 +34,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Detección de oxalatos en orina</h3>
-<img src="images/img_documents/rlogist.png">
+<img src="images/img_documents/rlogist2.png">
 <p>[Regresión Logística y Probit](https://rpubs.com/Edimer/540368)</p>
 </div>
 </div>
@@ -64,6 +65,113 @@ title: <h1></h1>
 <p>[Ejemplo práctico en biología](https://estudior.github.io/guias_descriptiva/14_Cluster.html#(1))</p>
 </div>
 </div>
+
+
+<tyear>___________________________________________________________________________________________________________</tyear>
+
+## <tyear>Visualization</tyear>
+
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Gráficación con `graphics` en R</h3>
+<img src="images/img_documents/img14.png"><br>
+<p>[`graphics`: introducción](https://estudior.github.io/guias_descriptiva/8_GraficacionBase.html#(1))</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Graficación con `lattice` en R</h3>
+<img src="images/img_documents/visual1.png"><br> 
+<p>[`lattice`: introducción](https://estudior.github.io/guias_descriptiva/9_Graf_lattice.html#(1))</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Graficación con `ggplot2` en R</h3>
+<img src="images/img_documents/visual2.png"><br> 
+<p>[`ggplot2`: introducción](https://estudior.github.io/guias_descriptiva/10_Graf_ggplot.html#(1))</p>
+</div>
+</div>
+
+<br>
+
+
+<tyear>___________________________________________________________________________________________________________</tyear>
+
+## <tyear>Data Manipulation</tyear>
+
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Manejo de datos con R</h3>
+<img src="images/img_documents/img9.png"><br>
+<p>[Manejo de datos: Introducción](https://estudior.github.io/guias_descriptiva/7_ManejoDatosR.html#1)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Mundo R + Tidyverse: I</h3>
+<img src="images/img_documents/img11.png"><br> 
+<p>[Datos ordenados con tidyverse](https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Mundo R + Tidyverse: II</h3>
+<img src="images/img_documents/img12.png"><br> 
+<p>[Datos ordenados con tidyverse](https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i)</p>
+</div>
+</div>
+
+<br>
+
+
+<tyear>___________________________________________________________________________________________________________</tyear>
+
+## <tyear>Guides for R</tyear>
+
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Introducción a R y RStudio</h3>
+<img src="images/img_documents/web.png"><br>
+<p>[R y Rstudio: introducción](https://unal-semilleror-facca.github.io/Actividades/1_Intro.html#/introduccion-a-r-y-rstudio)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Ecosistema RMarkdown: I</h3>
+<img src="images/img_documents/rmarkdown2.png"><br> 
+<p>[RMarkdown: Introducción I](https://unal-semilleror-facca.github.io/Actividades/1_RMarkdown.html#/ecosistema-r-markdown-i)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Ecosistema RMarkdown: II</h3>
+<img src="images/img_documents/explorer3.png"><br> 
+<p>[RMarkdown: Introducción II](https://unal-semilleror-facca.github.io/Actividades/1.2_RMarkdown.html#/ecosistema-r-markdown-ii)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Herramientas de programación</h3>
+<img src="images/img_documents/rmarkdown4.png">
+<p>[R, RStudio, Git y Github](https://unal-semilleror-facca.github.io/Actividades/GuiasR.html)</p>
+</div>
+</div>
+
+<br>
 
 
 <tyear>___________________________________________________________________________________________________________</tyear>
