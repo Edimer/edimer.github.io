@@ -69,6 +69,55 @@ title: <h1></h1>
 
 <tyear>___________________________________________________________________________________________________________</tyear>
 
+## <tyear>Exploratory Data Analysis</tyear>
+
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Correlaciones con R</h3>
+<img src="images/img_documents/explorer7.png"><br>
+<p>[Ejemplo con datos del Banco Mundial](https://unal-semilleror-facca.github.io/Actividades/CorRLS.html)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Exploración de datos con R</h3>
+<img src="images/img_documents/explorer5.png"><br> 
+<p>[Casos y muertes de VIH en Colombia](https://rpubs.com/Edimer/326811)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Exploración de datos con R</h3>
+<img src="images/img_documents/explorer4.png"><br> 
+<p>[Parque automotor vs calidad de aire en Colombia](https://rpubs.com/Edimer/481799)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Exploración de datos con R</h3>
+<img src="images/img_documents/img7.png">
+<p>[Homicidios en Colombia año 2017](https://rpubs.com/Edimer/467653)</p>
+</div>
+</div>
+
+<br>
+
+<div class="col-container">
+<div class="column">
+<div class="card">
+<h3>Exploración de datos con R</h3>
+<img src="images/img_documents/times_series.png">
+<p>[Accidentalidad en motocicletas - Medellín](https://rpubs.com/Edimer/534624)</p>
+</div>
+</div>
+
+<tyear>___________________________________________________________________________________________________________</tyear>
+
 ## <tyear>Visualization</tyear>
 
 <div class="col-container">
@@ -127,6 +176,14 @@ title: <h1></h1>
 <h3>Mundo R + Tidyverse: II</h3>
 <img src="images/img_documents/img12.png"><br> 
 <p>[Datos ordenados con tidyverse](https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Estructuración de datos con R</h3>
+<img src="images/img_documents/img2.png"><br> 
+<p>[Ejemplo con datos del Banco Mundial](https://rpubs.com/Edimer/515789)</p>
 </div>
 </div>
 
