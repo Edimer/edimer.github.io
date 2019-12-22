@@ -33,9 +33,9 @@ title: <h1></h1>
 
 <div class="column">
 <div class="card">
-<h3>Detección de oxalatos en orina</h3>
+<h3>Regresión Logística y Probit con R</h3>
 <img src="images/img_documents/rlogist2.png">
-<p>[Regresión Logística y Probit](https://rpubs.com/Edimer/540368)</p>
+<p>[Detección de oxalatos en orina](https://rpubs.com/Edimer/540368)</p>
 </div>
 </div>
 
