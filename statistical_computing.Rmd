@@ -84,7 +84,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Exploración de datos con R</h3>
-<img src="images/img_documents/explorer2.png"><br> 
+<img src="images/img_documents/img39.png"><br> 
 <p>[Casos y muertes de VIH en Colombia](https://rpubs.com/Edimer/326811)</p>
 </div>
 </div>
