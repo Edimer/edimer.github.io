@@ -10,7 +10,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Machine Learning con R</h3>
-<img src="images/img_documents/machine2.png"><br>
+<img src="images/img_documents/img1.png"><br>
 <p>[Ejemplo de uso: `caret` y `keras`](https://rpubs.com/Edimer/536034)</p>
 </div>
 </div>
