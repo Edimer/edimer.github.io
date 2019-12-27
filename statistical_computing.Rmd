@@ -76,7 +76,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Correlaciones con R</h3>
-<img src="images/img_documents/explorer7.png"><br>
+<img src="images/img_documents/img37.png"><br>
 <p>[Ejemplo con datos del Banco Mundial](https://unal-semilleror-facca.github.io/Actividades/CorRLS.html)</p>
 </div>
 </div>
@@ -84,7 +84,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Exploración de datos con R</h3>
-<img src="images/img_documents/explorer5.png"><br> 
+<img src="images/img_documents/explorer2.png"><br> 
 <p>[Casos y muertes de VIH en Colombia](https://rpubs.com/Edimer/326811)</p>
 </div>
 </div>
@@ -92,7 +92,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Exploración de datos con R</h3>
-<img src="images/img_documents/explorer4.png"><br> 
+<img src="images/img_documents/explorer5.png"><br> 
 <p>[Parque automotor vs calidad de aire en Colombia](https://rpubs.com/Edimer/481799)</p>
 </div>
 </div>
