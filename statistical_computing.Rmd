@@ -10,7 +10,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Machine Learning con R</h3>
-<img src="images/img_documents/img1.png"><br>
+<img src="images/img_documents/img34.png"><br>
 <p>[Ejemplo de uso: `caret` y `keras`](https://rpubs.com/Edimer/536034)</p>
 </div>
 </div>
@@ -18,7 +18,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Clasificación no supervisada</h3>
-<img src="images/img_documents/unsupervised.png"><br> 
+<img src="images/img_documents/img33.png"><br> 
 <p>[Procesamiento raster con R](https://rpubs.com/Edimer/519971)</p>
 </div>
 </div>
@@ -26,7 +26,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Clasificación supervisada</h3>
-<img src="images/img_documents/machine1.png"><br> 
+<img src="images/img_documents/img32.png"><br> 
 <p>[Clasificación de correos spam](https://rpubs.com/Edimer/534566)</p>
 </div>
 </div>
@@ -53,7 +53,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Componentes Principales con R</h3>
-<img src="images/img_documents/acp.png">
+<img src="images/img_documents/img29.png">
 <p>[Ejemplo práctico en biología](https://estudior.github.io/guias_descriptiva/13_ACP_Gorriones.pdf)</p>
 </div>
 </div>
