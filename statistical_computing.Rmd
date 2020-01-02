@@ -146,6 +146,14 @@ title: <h1></h1>
 </div>
 </div>
 
+<div class="column">
+<div class="card">
+<h3>Sistemas de graficación con R</h3>
+<img src="images/img_documents/img44.png"><br> 
+<p>[Gráficos estáticos e interactivos](https://rpubs.com/Edimer/563530)</p>
+</div>
+</div>
+
 <br>
 
 
