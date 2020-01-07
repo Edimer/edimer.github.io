@@ -109,7 +109,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Correlaciones con R</h3>
-<img src="images/img_documents/img37.png"><br>
+<img src="images/img_documents/img79.png"><br>
 <p>[Ejemplo con datos del Banco Mundial](https://unal-semilleror-facca.github.io/Actividades/CorRLS.html)</p>
 </div>
 </div>
@@ -271,5 +271,24 @@ title: <h1></h1>
 
 <br>
 
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Construcción de paquetes con R</h3>
+<img src="images/img_documents/img11.png"><br>
+<p>[Tutorial: creando paquetes en R](https://edimer-blogr.netlify.com/projects/genr0-1/)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>`hexSticker` y `available` en R</h3>
+<img src="images/img_documents/img21.png"><br> 
+<p>[Stickers para R](https://edimer-blogr.netlify.com/projects/genr/)</p>
+</div>
+</div>
+
+<br>
 
 <tyear>___________________________________________________________________________________________________________</tyear>
