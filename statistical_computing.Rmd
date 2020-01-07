@@ -17,6 +17,14 @@ title: <h1></h1>
 
 <div class="column">
 <div class="card">
+<h3>Machine Learning con Tensorflow y R</h3>
+<img src="images/img_documents/img45.png">
+<p>[Predicción de abandono de clientes](https://www.rpubs.com/Edimer/564284)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
 <h3>Clasificación no supervisada</h3>
 <img src="images/img_documents/img33.png"><br> 
 <p>[Procesamiento raster con R](https://rpubs.com/Edimer/519971)</p>
@@ -31,6 +39,10 @@ title: <h1></h1>
 </div>
 </div>
 
+<br>
+
+<div class="col-container">
+
 <div class="column">
 <div class="card">
 <h3>Regresión Logística y Probit con R</h3>
@@ -39,9 +51,6 @@ title: <h1></h1>
 </div>
 </div>
 
-<br>
-
-<div class="col-container">
 <div class="column">
 <div class="card">
 <h3>Modelos de Regresión</h3>
@@ -66,6 +75,30 @@ title: <h1></h1>
 </div>
 </div>
 
+
+<tyear>___________________________________________________________________________________________________________</tyear>
+
+## <tyear>Statistical Inference</tyear>
+
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Inferencia estadística con R</h3>
+<img src="images/img_documents/img88.png"><br>
+<p>[Ejemplos de inferencia estadística](https://bioestadistica.github.io/Temas/20_ejemplos.html)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Diseño experimental con R</h3>
+<img src="images/img_documents/img76.png"><br> 
+<p>[Introducción al diseño de experimentos con R](https://estudior.github.io/guias_experimentos/1_Introduccion.html#(1))</p>
+</div>
+</div>
+
+<br>
 
 <tyear>___________________________________________________________________________________________________________</tyear>
 
