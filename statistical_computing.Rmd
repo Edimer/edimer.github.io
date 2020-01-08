@@ -199,7 +199,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Manejo de datos con R</h3>
-<img src="images/img_documents/img9.png"><br>
+<img src="images/img_documents/img10.png"><br>
 <p>[Manejo de datos: Introducción](https://estudior.github.io/guias_descriptiva/7_ManejoDatosR.html#1)</p>
 </div>
 </div>
@@ -207,7 +207,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Mundo R + Tidyverse: I</h3>
-<img src="images/img_documents/img11.png"><br> 
+<img src="images/img_documents/img90.png"><br> 
 <p>[Datos ordenados con tidyverse](https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i)</p>
 </div>
 </div>
@@ -215,7 +215,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Mundo R + Tidyverse: II</h3>
-<img src="images/img_documents/img12.png"><br> 
+<img src="images/img_documents/img98.png"><br> 
 <p>[Datos ordenados con tidyverse](https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i)</p>
 </div>
 </div>
