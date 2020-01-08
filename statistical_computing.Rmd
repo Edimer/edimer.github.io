@@ -248,7 +248,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Ecosistema RMarkdown: I</h3>
-<img src="images/img_documents/rmarkdown2.png"><br> 
+<img src="images/img_documents/rmarkdown4.png"><br> 
 <p>[RMarkdown: Introducción I](https://unal-semilleror-facca.github.io/Actividades/1_RMarkdown.html#/ecosistema-r-markdown-i)</p>
 </div>
 </div>
@@ -256,7 +256,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Ecosistema RMarkdown: II</h3>
-<img src="images/img_documents/explorer3.png"><br> 
+<img src="images/img_documents/img117.png"><br> 
 <p>[RMarkdown: Introducción II](https://unal-semilleror-facca.github.io/Actividades/1.2_RMarkdown.html#/ecosistema-r-markdown-ii)</p>
 </div>
 </div>
@@ -264,7 +264,7 @@ title: <h1></h1>
 <div class="column">
 <div class="card">
 <h3>Herramientas de programación</h3>
-<img src="images/img_documents/rmarkdown4.png">
+<img src="images/img_documents/img118.png">
 <p>[R, RStudio, Git y Github](https://unal-semilleror-facca.github.io/Actividades/GuiasR.html)</p>
 </div>
 </div>
