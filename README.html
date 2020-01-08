@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>README.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -84,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -233,6 +232,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -244,18 +244,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -291,12 +279,30 @@ $(document).ready(function () {
     Home
   </a>
 </li>
-<li>
-  <a href="about.html">
-    <span class="fa fa fa fa-graduation-cap"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa fa fa-male"></span>
      
     About
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="about.html">
+        <span class="fa fa fa fa-graduation-cap"></span>
+         
+        About me
+      </a>
+    </li>
+    <li>
+      <a href="cv_edimer.html">
+        <span class="fa fa fa fa-file-text-o"></span>
+         
+        Curriculum vitae
+      </a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="research.html">
@@ -305,30 +311,12 @@ $(document).ready(function () {
     Research
   </a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa fas fa-infinity"></span>
+<li>
+  <a href="statistical_computing.html">
+    <span class="fa fa fa fa-bar-chart"></span>
      
     Statistical Computing
-     
-    <span class="caret"></span>
   </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="https://edimer-blogr.netlify.com/">
-        <span class="fa fa fa fa-bar-chart"></span>
-         
-        Blog R
-      </a>
-    </li>
-    <li>
-      <a href="https://edimer-blogr.netlify.com/">
-        <span class="fa fa fa fa-area-chart"></span>
-         
-        Blog Python
-      </a>
-    </li>
-  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -355,6 +343,9 @@ $(document).ready(function () {
 <div id="edimer.github.io" class="section level1">
 <h1>edimer.github.io</h1>
 <p>Mi página web (<a href="https://edimer.github.io/" class="uri">https://edimer.github.io/</a>)</p>
+<center>
+<img src = "images/img_documents/img127.png"/>
+</center>
 </div>
 
 <center> <p>Copyright &copy; 2018, webpage made with Rmarkdown.</p></center>
@@ -375,6 +366,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
