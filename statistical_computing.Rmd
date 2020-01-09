@@ -25,17 +25,17 @@ title: <h1></h1>
 
 <div class="column">
 <div class="card">
-<h3>Clasificación no supervisada</h3>
-<img src="images/img_documents/img33.png"><br> 
-<p>[Procesamiento raster con R](https://rpubs.com/Edimer/519971)</p>
+<h3>Notas de *Statistical Learning*</h3>
+<img src="images/img_documents/img66.png"><br>
+<p>[El modelo lineal: Mínimos Cuadrados ](documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<h3>Clasificación supervisada</h3>
-<img src="images/img_documents/img32.png"><br> 
-<p>[Clasificación de correos spam](https://rpubs.com/Edimer/534566)</p>
+<h3>Modelos de Regresión</h3>
+<img src="images/img_documents/reglineal2.png">
+<p>[Regresión lineal simple con R.](https://unal-semilleror-facca.github.io/Actividades/regsimple.html#1)</p>
 </div>
 </div>
 
@@ -53,9 +53,9 @@ title: <h1></h1>
 
 <div class="column">
 <div class="card">
-<h3>Modelos de Regresión</h3>
-<img src="images/img_documents/reglineal2.png">
-<p>[Regresión lineal simple con R.](https://unal-semilleror-facca.github.io/Actividades/regsimple.html#1)</p>
+<h3>Clasificación no supervisada</h3>
+<img src="images/img_documents/img33.png"><br> 
+<p>[Procesamiento raster con R](https://rpubs.com/Edimer/519971)</p>
 </div>
 </div>
 
@@ -79,9 +79,9 @@ title: <h1></h1>
 
 <div class="column">
 <div class="card">
-<h3>*Statistical Learning*</h3>
-<img src="images/img_documents/img34.png"><br>
-<p>[El modelo lineal: Mínimos Cuadrados ](documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html)</p>
+<h3>Clasificación supervisada</h3>
+<img src="images/img_documents/img32.png"><br> 
+<p>[Clasificación de correos spam](https://rpubs.com/Edimer/534566)</p>
 </div>
 </div>
 
