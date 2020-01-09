@@ -75,6 +75,18 @@ title: <h1></h1>
 </div>
 </div>
 
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>*Statistical Learning*</h3>
+<img src="images/img_documents/img34.png"><br>
+<p>[El modelo lineal: Mínimos Cuadrados ](documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html)</p>
+</div>
+</div>
+
+<br>
+
 
 <tyear>___________________________________________________________________________________________________________</tyear>
 
