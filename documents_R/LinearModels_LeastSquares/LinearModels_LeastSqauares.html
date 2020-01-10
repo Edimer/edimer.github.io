@@ -108,7 +108,19 @@ class: rstudio-slide, left
 class: rstudio-slide, left
 # Función de pérdida (*loss*)
 
+- Con `\(X \in \rm I\!R^p\)` que denota un vector de entrada con valores aleatorios.
+- Con `\(Y \in \rm I\!R\)` siendo una variable (escalar) aleatoria de salida.
+- Con distribcuión de probabilidad conjunta denotada por `\(\rm Pr(X, Y)\)`, se busca una función `\(f(X)\)` para predecir `\(Y\)`, dado los valores de `\(X\)`.
+- Esta teoría requiere una [función de pérdida - *loss function*](https://en.wikipedia.org/wiki/Loss_function) `\(L(Y, f(X))\)` para penalizar los errores en la predicción.
+- Una de las funciones de pérdida (también denominada *función de costo*) más común y conveniente es *squared error loss*: `$$L(Y, f(X)) = (Y-f(X))^2$$`
 
+---
+class: rstudio-slide, left
+# Elección de `\(f\)`
+
+- Error de predicción esperado (*Expected Prediction Error - EPE*): `$$\mathrm{EPE}(f) = \mathrm{E}(Y-f(X))^2 = \int[y - f(x)]^2\ \mathrm{Pr}(dx, dy)$$`
+- Por condicionamiento en `\(X\)`, se puede escribir como: `$$\mathrm{EPE}(f)=E_XE_{Y|X}\ ([Y - f(X)]^2 | X)$$`
+- Es suficiente minimizar EPE: `$$f(x) = \mathrm{argmin}_c\ \mathrm{E}_{Y|X}\ ([Y - c]^2 | X = x) = \mathrm{E}(Y|X=x)$$`
 
 ---
 class: rstudio-slide, left
