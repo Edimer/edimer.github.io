@@ -104,7 +104,7 @@ class: rstudio-slide, left
 
 - En notación matricial se puede escribir: $$RSS(\beta) = (y - X\beta)^T(y - X\beta)$$
 - $X$ es una matriz $N \times p$ con cada fila como un vector de entradas y $y$ es un vector de salidas en el conjunto de datos de entrenamiento.
-- Diferenciando respecto a $\beta$ se obtienen las [*ecuaciones normales:*](https://link.springer.com/referenceworkentry/10.1007%2F978-0-387-32833-1_286) $$X^T(y-X\beta) = 0$$
+- Derivando respecto a $\beta$ se obtienen las [*ecuaciones normales:*](https://link.springer.com/referenceworkentry/10.1007%2F978-0-387-32833-1_286) $$X^T(y-X\beta) = 0$$
 - Si $X^TX$ es <tsub>[no singular](https://es.wikipedia.org/wiki/Singularidad_matem%C3%A1tica)</tsub>, entonces la única solución está dada por: $$\hat{\beta}=(X^TX)^{-1}X^Ty$$
 
 ---
@@ -124,6 +124,14 @@ class: rstudio-slide, left
 - Error de predicción esperado (*Expected Prediction Error - EPE*): $$\mathrm{EPE}(f) = \mathrm{E}(Y-f(X))^2 = \int[y - f(x)]^2\ \mathrm{Pr}(dx, dy)$$
 - Por condicionamiento en $X$, se puede escribir como: $$\mathrm{EPE}(f)=E_XE_{Y|X}\ ([Y - f(X)]^2 | X)$$
 - Es suficiente minimizar EPE, cuyo resultado es la función de *regresión*: $$f(x) = \mathrm{argmin}_c\ \mathrm{E}_{Y|X}\ ([Y - c]^2 | X = x) = \mathrm{E}(Y|X=x)$$
+
+---
+class: rstudio-slide, left
+# Consideraciones finales
+
+- Bajo ciertas condiciones de regularidad en la distribución de probabilidad conjunta $(\mathrm{Pr}(X, Y))$, cuando $N \longrightarrow \infty$, se puede probar: $$\hat{f}(x) \longrightarrow \mathrm{E}(Y|X=x)$$
+- La función de regresión $f(x)$ asume que la relación es lineal en los parámetros: $f(x) \approx x^T\beta$
+- Juntando el modelo lineal para $f(x)$ en *EPE* y derivando, se puede resolver para $\beta$: $$\beta = [\mathrm{E}XX^T]^{-1}\mathrm{E}(XY)$$
 
 ---
 class: rstudio-slide, left
