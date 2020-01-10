@@ -4,7 +4,7 @@
     <title>Modelos Lineales</title>
     <meta charset="utf-8" />
     <meta name="author" content="Edimer David Jaramillo" />
-    <meta name="date" content="2020-01-09" />
+    <meta name="date" content="2020-01-10" />
     <link rel="stylesheet" href="style_xaringan_2.css" type="text/css" />
   </head>
   <body>
@@ -14,7 +14,7 @@ class: center, middle, inverse, title-slide
 # Modelos Lineales
 ## Mínimos Cuadrados
 ### <a href="https://edimer.github.io/">Edimer David Jaramillo</a>
-### 2020-01-09
+### 2020-01-10
 
 ---
 
@@ -103,6 +103,12 @@ class: rstudio-slide, left
 - `\(X\)` es una matriz `\(N \times p\)` con cada fila como un vector de entradas y `\(y\)` es un vector de salidas en el conjunto de datos de entrenamiento.
 - Diferenciando respecto a `\(\beta\)` se obtienen las [*ecuaciones normales:*](https://link.springer.com/referenceworkentry/10.1007%2F978-0-387-32833-1_286) `$$X^T(y-X\beta) = 0$$`
 - Si `\(X^TX\)` es &lt;tsub&gt;[no singular](https://es.wikipedia.org/wiki/Singularidad_matem%C3%A1tica)&lt;/tsub&gt;, entonces la única solución está dada por: `$$\hat{\beta}=(X^TX)^{-1}X^Ty$$`
+
+---
+class: rstudio-slide, left
+# Función de pérdida (*loss*)
+
+
 
 ---
 class: rstudio-slide, left

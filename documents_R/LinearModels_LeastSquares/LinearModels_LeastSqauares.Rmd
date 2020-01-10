@@ -109,6 +109,12 @@ class: rstudio-slide, left
 
 ---
 class: rstudio-slide, left
+# Función de pérdida (*loss*)
+
+
+
+---
+class: rstudio-slide, left
 # Recurso de información - Teoría
 
 - [The Elements of Statistical Learning: Data Mining, Inference, and Prediciont.](https://web.stanford.edu/~hastie/ElemStatLearn/)
