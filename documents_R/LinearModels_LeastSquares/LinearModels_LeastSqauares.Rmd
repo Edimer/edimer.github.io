@@ -123,7 +123,7 @@ class: rstudio-slide, left
 
 - Error de predicción esperado (*Expected Prediction Error - EPE*): $$\mathrm{EPE}(f) = \mathrm{E}(Y-f(X))^2 = \int[y - f(x)]^2\ \mathrm{Pr}(dx, dy)$$
 - Por condicionamiento en $X$, se puede escribir como: $$\mathrm{EPE}(f)=E_XE_{Y|X}\ ([Y - f(X)]^2 | X)$$
-- Es suficiente minimizar EPE: $$f(x) = \mathrm{argmin}_c\ \mathrm{E}_{Y|X}\ ([Y - c]^2 | X = x) = \mathrm{E}(Y|X=x)$$
+- Es suficiente minimizar EPE, cuyo resultado es la función de *regresión*: $$f(x) = \mathrm{argmin}_c\ \mathrm{E}_{Y|X}\ ([Y - c]^2 | X = x) = \mathrm{E}(Y|X=x)$$
 
 ---
 class: rstudio-slide, left
