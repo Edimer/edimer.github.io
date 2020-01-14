@@ -27,13 +27,13 @@ title: <h1></h1>
 <div class="card">
 <h3>Notas de *Statistical Learning*</h3>
 <img src="images/img_documents/img66.png"><br>
-<p>[El modelo lineal: Mínimos Cuadrados ](documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html)</p>
+<p>[El Modelo Lineal: Mínimos Cuadrados ](documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html)</p>
 </div>
 </div>
 
 <div class="column">
 <div class="card">
-<h3>Regresión lineal simple con R</h3>
+<h3>Regresión Lineal Simple con R</h3>
 <img src="images/img_documents/reglineal2.png">
 <p>[RLS con R: gasto militar vs gasto en educación](https://unal-semilleror-facca.github.io/Actividades/regsimple.html#1)</p>
 </div>
