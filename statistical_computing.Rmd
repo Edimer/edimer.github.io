@@ -71,7 +71,7 @@ title: <h1></h1>
 <div class="card">
 <h3>Clusterización con R</h3>
 <img src="images/img_documents/img149.png">
-<p>[Ejemplo práctico en biología](https://estudior.github.io/guias_descriptiva/14_Cluster.html#(1))</p>
+<p>["La selección natural en acción"](https://estudior.github.io/guias_descriptiva/14_Cluster.html#(1))</p>
 </div>
 </div>
 
@@ -89,7 +89,7 @@ title: <h1></h1>
 <div class="card">
 <h3>Componentes Principales con R</h3>
 <img src="images/img_documents/img143.png">
-<p>[Ejemplo práctico en biología](https://estudior.github.io/guias_descriptiva/13_ACP_Gorriones.pdf)</p>
+<p>["La selección natural en acción"](https://estudior.github.io/guias_descriptiva/13_ACP_Gorriones.pdf)</p>
 </div>
 </div>
 
