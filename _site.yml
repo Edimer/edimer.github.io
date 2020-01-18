@@ -21,6 +21,9 @@ navbar:
   - text: Statistical Computing
     href: statistical_computing.html
     icon: fa fa-bar-chart
+  - text: Blog R+Py
+    href: https://blogrpy.netlify.com/
+    icon: fas fa-pen-alt    
   right:
   - text: Contact
     href: contact.html
