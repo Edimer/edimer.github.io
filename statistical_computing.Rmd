@@ -169,6 +169,19 @@ title: <h1></h1>
 </div>
 </div>
 
+<div class="column">
+<div class="card">
+<h3>Pronóstico de COVID-19 con R</h3>
+<img src="images/img_documents/covid.png">
+<p>[Casos de COVID-19 en Colombia. Arima forecast.](https://rpubs.com/PaolaB/588565)</p>
+</div>
+</div>
+
+<br>
+
+
+
+
 <tyear>___________________________________________________________________________________________________________</tyear>
 
 ## <tyear>Visualization</tyear>
