@@ -324,9 +324,9 @@ title: <h1></h1>
 
 <div class="column">
 <div class="card">
-<h3>`LigthBGM` en R</h3>
+<h3>`LigthGBM` en R</h3>
 <img src="images/img_documents/img80.png"><br> 
-<p>[Guía de instalación de `LigthBGM` en windows](https://rpubs.com/Edimer/589672)</p>
+<p>[Guía de instalación de `LigthGBM` en windows](https://rpubs.com/Edimer/589672)</p>
 </div>
 </div>
 
