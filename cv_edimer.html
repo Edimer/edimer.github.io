@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Edimer David Jaramillo" />
-    <meta name="date" content="2020-01-28" />
+    <meta name="date" content="2020-04-24" />
     <title>Edimer David Jaramillo</title>
 
     
         <link href="cv_edimer_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
     <link href="cv_edimer_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-    <link href="cv_edimer_files/paged-0.7/css/resume.css" rel="stylesheet" />
-    <script src="cv_edimer_files/paged-0.7/js/config.js"></script>
-    <script src="cv_edimer_files/paged-0.7/js/paged.js"></script>
-    <script src="cv_edimer_files/paged-0.7/js/hooks.js"></script>
+    <link href="cv_edimer_files/paged-0.9/css/resume.css" rel="stylesheet" />
+    <script src="cv_edimer_files/paged-0.9/js/config.js"></script>
+    <script src="cv_edimer_files/paged-0.9/js/paged.js"></script>
+    <script src="cv_edimer_files/paged-0.9/js/hooks.js"></script>
     
     
   </head>
@@ -24,7 +24,7 @@
 
 <div id="aside" class="section level1">
 <h1>Aside</h1>
-<p><img src="https://cdn2.iconfinder.com/data/icons/science-and-education-4/64/Atom-512.png" style="width:80.0%" /></p>
+<p><img src="My_Avatar2.png" style="width:80.0%" /></p>
 <div id="contact" class="section level2">
 <h2>Contacto</h2>
 <ul>
@@ -69,21 +69,6 @@ Experiencia en docencia universitaria, formulación de proyectos de investigaci�
 <p>Medellín, Colombia</p>
 <p>2016 - 2017</p>
 <p>Tesis: Aplicación de Modelos Lineales Generalizados en comportamiento de crecimiento de bovinos Lucerna.</p>
-</div>
-</div>
-<div id="educación-complementaria" class="section level2" data-icon="graduation-cap" data-concise="true">
-<h2>Educación Complementaria</h2>
-<div id="unam-méxico" class="section level3">
-<h3>UNAM México</h3>
-<p>Curso de corta duración: Introducción a la ciencia de datos con R</p>
-<p>México (<em>online</em>)</p>
-<p>2018</p>
-</div>
-<div id="sena---fenavi" class="section level3">
-<h3>SENA - Fenavi</h3>
-<p>Curso de corta duración: Big Data y CRM</p>
-<p>Itagüi, Colombia</p>
-<p>2019</p>
 </div>
 </div>
 <div id="experiencia-en-investigación" class="section level2" data-icon="laptop">
@@ -239,8 +224,11 @@ Experiencia en docencia universitaria, formulación de proyectos de investigaci�
     if (i === 0 && el.id === 'title') continue;
     el.className += ' main-block';
     if (el.dataset['concise']) el.className += ' concise';
-    s = el.dataset['icon'] || 'bookmark';
-    el.firstElementChild.insertBefore(create_el('i', 'fa fa-' + s), el.firstElementChild.firstChild);
+    // if there is no icon, add an icon:
+    if (el.firstElementChild.firstChild && el.firstElementChild.firstChild.nodeName !== 'I') {
+      s = el.dataset['icon'] || 'bookmark';
+      el.firstElementChild.insertBefore(create_el('i', 'fa fa-' + s), el.firstElementChild.firstChild);
+    }
   }
 
   // tweak class names of blocks in sections
