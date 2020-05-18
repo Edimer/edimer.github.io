@@ -93,6 +93,14 @@ title: <h1></h1>
 </div>
 </div>
 
+<div class="column">
+<div class="card">
+<h3>Minería de texto con R</h3>
+<img src="images/img_documents/img3.png">
+<p>[Clasificación de tweets - Covid19](https://rpubs.com/Edimer/612558)</p>
+</div>
+</div>
+
 <br>
 
 
