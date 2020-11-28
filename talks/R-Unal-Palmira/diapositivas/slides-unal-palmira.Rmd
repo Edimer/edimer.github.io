@@ -398,7 +398,7 @@ class: inverse, center, middle
 
 <br>
 <center>
-<img src = "img/libro3.png"width = 350; height = 400/>
+<img src = "img/libro3.PNG"width = 350; height = 400/>
 </center>
 
 .footnote[
