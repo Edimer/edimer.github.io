@@ -6,4 +6,5 @@ title: <h1></h1>
 
 | Documento | Descripción | |
 | :--- | :---- | :----: |
-| [Ciencia de Datos con R: usos en el sector agropecuario](https://edimer.github.io/talks/R-Unal-Palmira/diapositivas/slides-unal-palmira.html) | Charla acerca de Ciencia de Datos y usos en el sector agropecuario (Octubre 2020). |  <img src="images/img_documents/img65.png" height = 80> |
+| [Ciencia de Datos con R: usos en el sector agropecuario](https://edimer.github.io/talks/R-Unal-Palmira/diapositivas/slides-unal-palmira.html) | Charla acerca de Ciencia de Datos y usos en el sector agropecuario (Octubre 2020). |  <img src="images/img_documents/img65.png" height = 100> |
+| [Diseño y análisis estadístico de experimentos en Cannabis](https://edimer.github.io/talks/Cannabis-Statistics-Palmira/Cannabis-Statistics-Palmira.html) | Análisis estadístico de experimentos en *Protocolo de Evaluaciónes Agronómicas* en Cannabis sp (Noviembre 2020). |  <img src="images/img_documents/img5.png" height = 100> |
