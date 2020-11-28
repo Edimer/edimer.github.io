@@ -340,4 +340,70 @@ title: <h1></h1>
 
 <br>
 
+## <tyear>Statistics Talks </tyear>
+
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Introducción a R y RStudio</h3>
+<img src="images/img_documents/web.png"><br>
+<p>[Ciencia de Datos con R: Introducción](/R-Unal-Palmira/diapositivas/slides-unal-palmira.html)</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Ecosistema RMarkdown: I</h3>
+<img src="images/img_documents/rmarkdown4.png"><br> 
+<p>[RMarkdown: Introducción I]()</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Ecosistema RMarkdown: II</h3>
+<img src="images/img_documents/img117.png"><br> 
+<p>[RMarkdown: Introducción II]()</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>Herramientas de programación</h3>
+<img src="images/img_documents/img118.png">
+<p>[R, RStudio, Git y Github]()</p>
+</div>
+</div>
+
+<br>
+
+<div class="col-container">
+
+<div class="column">
+<div class="card">
+<h3>Construcción de paquetes con R</h3>
+<img src="images/img_documents/img11.png"><br>
+<p>[Tutorial: creando paquetes en R]()</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>`hexSticker` y `available` en R</h3>
+<img src="images/img_documents/img21.png"><br> 
+<p>[Stickers para R]()</p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+<h3>`LigthGBM` en R</h3>
+<img src="images/img_documents/img80.png"><br> 
+<p>[Guía de instalación de `LigthGBM` en windows]()</p>
+</div>
+</div>
+
+<br>
+
 <tyear>___________________________________________________________________________________________________________</tyear>
