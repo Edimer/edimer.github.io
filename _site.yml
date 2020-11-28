@@ -19,8 +19,14 @@ navbar:
     href: research.html
     icon: fa fa-university
   - text: Statistical Computing
-    href: statistical_computing.html
-    icon: fa fa-bar-chart
+    icon: fa-area-chart 
+    menu:
+    - text: Examples
+      href: statistical_computing.html
+      icon: fa-file-code-o 
+    - text: Statistics Talks
+      href: talks_statistics.html
+      icon: fa-file-text-o   
   - text: Blog R+Py
     href: https://blogrpy.netlify.com/
     icon: fas fa-pen-alt    

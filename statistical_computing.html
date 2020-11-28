@@ -322,12 +322,30 @@ $(document).ready(function () {
     Research
   </a>
 </li>
-<li>
-  <a href="statistical_computing.html">
-    <span class="fa fa fa fa-bar-chart"></span>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-area-chart"></span>
      
     Statistical Computing
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="statistical_computing.html">
+        <span class="fa fa-file-code-o"></span>
+         
+        Examples
+      </a>
+    </li>
+    <li>
+      <a href="talks_statistics.html">
+        <span class="fa fa-file-text-o"></span>
+         
+        Statistics Talks
+      </a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="https://blogrpy.netlify.com/">
@@ -362,514 +380,257 @@ $(document).ready(function () {
 
 <div id="statistical-learning" class="section level2">
 <h2><tyear>Statistical Learning</tyear></h2>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Machine Learning con R
-</h3>
-<img src="images/img_documents/img34.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/536034">Ejemplo de uso: <code>caret</code> y <code>keras</code></a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Machine Learning con Tensorflow y R
-</h3>
-<img src="images/img_documents/img45.png">
-<p>
-<a href="https://www.rpubs.com/Edimer/564284">Predicción de abandono de clientes</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Notas de <em>Statistical Learning</em>
-</h3>
-<img src="images/img_documents/img66.png"><br>
-<p>
-<a href="documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html">El Modelo Lineal: Mínimos Cuadrados</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Regresión Lineal Simple con R
-</h3>
-<img src="images/img_documents/reglineal2.png">
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/regsimple.html#1">RLS con R: gasto militar vs gasto en educación</a>
-</p>
-</div>
-</div>
-<p><br></p>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Regresión Lineal Múltiple con R
-</h3>
-<img src="images/img_documents/img130.png">
-<p>
-<a href="https://rpubs.com/Edimer/565984">Comparación de modelos: PLOS ONE</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Regresión Logística y Probit con R
-</h3>
-<img src="images/img_documents/rlogist2.png">
-<p>
-<a href="https://rpubs.com/Edimer/540368">Detección de oxalatos en orina</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Clasificación no supervisada
-</h3>
-<img src="images/img_documents/img136.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/519971">Procesamiento raster con R</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Clusterización con R
-</h3>
-<img src="images/img_documents/img149.png">
-<p>
-<a href="https://estudior.github.io/guias_descriptiva/14_Cluster.html#(1)">“La selección natural en acción”</a>
-</p>
-</div>
-</div>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Clasificación supervisada
-</h3>
-<img src="images/img_documents/img141.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/534566">Clasificación de correos spam</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Componentes Principales con R
-</h3>
-<img src="images/img_documents/img143.png">
-<p>
-<a href="https://estudior.github.io/guias_descriptiva/13_ACP_Gorriones.pdf">“La selección natural en acción”</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-<em>Text Mining</em> con R
-</h3>
-<img src="images/img_documents/img3.png">
-<p>
-<a href="https://rpubs.com/Edimer/612558">Clasificación de tweets - Covid19</a>
-</p>
-</div>
-</div>
-<p><br></p>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="33%" />
+<col width="40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Documento</th>
+<th align="left">Descripción</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://rpubs.com/Edimer/536034">Machine Learning con <code>caret</code> y <code>keras</code></a></td>
+<td align="left">Ejemplo de uso en clasificación de cáncer de seno.</td>
+<td align="center"><img src="images/img_documents/img34.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://www.rpubs.com/Edimer/564284">Predicción de abandono de clientes</a></td>
+<td align="left">Ejemplo de uso de TensorFlow para predicción de abandono de clientes.</td>
+<td align="center"><img src="images/img_documents/img45.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html">El Modelo Lineal: Mínimos Cuadrados</a></td>
+<td align="left">Historia corta, teoría del modelo lineal y estimación por mínimos cuadrados</td>
+<td align="center"><img src="images/img_documents/img66.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/regsimple.html#1">Gasto militar vs gasto en educación</a></td>
+<td align="left">Ejemplo de Regresión Lineal Simple (RLS) con datos del Banco Mundial.</td>
+<td align="center"><img src="images/img_documents/reglineal2.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://rpubs.com/Edimer/565984">Comparación de modelos: PLOS ONE</a></td>
+<td align="left">Modelos de Regresión Lineal Múltiple con datos de artículo publicado en PLOS One.</td>
+<td align="center"><img src="images/img_documents/img130.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://rpubs.com/Edimer/540368">Detección de oxalatos en orina</a></td>
+<td align="left">Comparación de modelos de <em>Regresión Logística</em> y <em>Regresión Probit</em>.</td>
+<td align="center"><img src="images/img_documents/rlogist2.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://rpubs.com/Edimer/519971">Procesamiento raster con R</a></td>
+<td align="left">Análisis geoespacial con r, ejemplo de procesamiento <em>raster</em> con machine learning no supervisado.</td>
+<td align="center"><img src="images/img_documents/img136.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://estudior.github.io/guias_descriptiva/13_ACP_Gorriones.pdf"><em>“La selección natural en acción”</em></a></td>
+<td align="left">Ejemplo de Análisis de Componentes Principales con datos de gorriones. <a href="https://edimer.github.io/Stat/6_MetodosExploratorios.html">El mismo ejemplo en formato HTML</a></td>
+<td align="center"><img src="images/img_documents/img143.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://estudior.github.io/guias_descriptiva/14_Cluster.html#(1)"><em>“La selección natural en acción”</em></a></td>
+<td align="left">Ejemplo de Análisis de Clúster con datos de gorriones.</td>
+<td align="center"><img src="images/img_documents/img149.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://rpubs.com/Edimer/534566">Clasificación de correos spam</a></td>
+<td align="left">Comparación de Árboles de clasificación, Support Vector Machine y Análisis Discriminante Lineal.</td>
+<td align="center"><img src="images/img_documents/img141.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://rpubs.com/Edimer/612558">Clasificación de tweets - Covid19</a></td>
+<td align="left">Ejemplo de <em>minería de texto (text mining)</em> con tweets sobre Covid-19.</td>
+<td align="center"><img src="images/img_documents/img3.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://rpubs.com/PaolaB/588565">Casos de COVID-19 en Colombia. Arima forecast.</a></td>
+<td align="left">Ejemplo de pronósticos con modelo Arima.</td>
+<td align="center"><img src="images/img_documents/covid.png" height = 80></td>
+</tr>
+</tbody>
+</table>
 <p><tyear>___________________________________________________________________________________________________________</tyear></p>
 </div>
 <div id="statistical-inference" class="section level2">
 <h2><tyear>Statistical Inference</tyear></h2>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Inferencia estadística con R
-</h3>
-<img src="images/img_documents/img88.png"><br>
-<p>
-<a href="https://bioestadistica.github.io/Temas/20_ejemplos.html">Ejemplos de inferencia estadística</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Diseño experimental con R
-</h3>
-<img src="images/img_documents/img76.png"><br>
-<p>
-<a href="https://estudior.github.io/guias_experimentos/1_Introduccion.html#(1)">Introducción al diseño de experimentos con R</a>
-</p>
-</div>
-</div>
-<p><br></p>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="33%" />
+<col width="40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Documento</th>
+<th align="left">Descripción</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://bioestadistica.github.io/Temas/20_ejemplos.html">Ejemplos de inferencia estadística</a></td>
+<td align="left">Ejemplos de inferencia sobre parámetros <span class="math inline">\(\mu\)</span>, <span class="math inline">\(\sigma\)</span> y <span class="math inline">\(p\)</span> (proporciones).</td>
+<td align="center"><img src="images/img_documents/img88.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://estudior.github.io/guias_experimentos/1_Introduccion.html#(1)">Introducción al diseño de experimentos con R</a></td>
+<td align="left">Teoría sobre diseño estadístico de experimentos.</td>
+<td align="center"><img src="images/img_documents/img76.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
 <p><tyear>___________________________________________________________________________________________________________</tyear></p>
 </div>
 <div id="exploratory-data-analysis" class="section level2">
 <h2><tyear>Exploratory Data Analysis</tyear></h2>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Correlaciones con R
-</h3>
-<img src="images/img_documents/img79.png"><br>
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/CorRLS.html">Ejemplo con datos del Banco Mundial</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Exploración de datos con R
-</h3>
-<img src="images/img_documents/img39.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/326811">Casos y muertes de VIH en Colombia</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Exploración de datos con R
-</h3>
-<img src="images/img_documents/explorer5.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/481799">Parque automotor vs calidad de aire en Colombia</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Exploración de datos con R
-</h3>
-<img src="images/img_documents/img7.png">
-<p>
-<a href="https://rpubs.com/Edimer/467653">Homicidios en Colombia año 2017</a>
-</p>
-</div>
-</div>
-<p><br></p>
-<div class="col-container">
-<div class="column">
-<div class="card">
-<h3>
-Exploración de datos con R
-</h3>
-<img src="images/img_documents/times_series.png">
-<p>
-<a href="https://rpubs.com/Edimer/534624">Accidentalidad en motocicletas - Medellín</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Pronóstico de COVID-19 con R
-</h3>
-<img src="images/img_documents/covid.png">
-<p>
-<a href="https://rpubs.com/PaolaB/588565">Casos de COVID-19 en Colombia. Arima forecast.</a>
-</p>
-</div>
-</div>
-<p><br></p>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="33%" />
+<col width="40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Documento</th>
+<th align="left">Descripción</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/CorRLS.html">Ejemplo de correlaciones</a></td>
+<td align="left">Diagramas de dispersión y correlogramas con datos del Banco Mundial.</td>
+<td align="center"><img src="images/img_documents/img79.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://rpubs.com/Edimer/326811">Casos y muertes de VIH en Colombia</a></td>
+<td align="left">Análisis descriptivo y exploratorio de VIH en Colombia.</td>
+<td align="center"><img src="images/img_documents/img39.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://rpubs.com/Edimer/481799">Parque automotor vs calidad de aire en Colombia</a></td>
+<td align="left">Análisis exploratorio de calidad de aire en Colombia vs parque automotor.</td>
+<td align="center"><img src="images/img_documents/explorer5.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://rpubs.com/Edimer/467653">Homicidios en Colombia año 2017</a></td>
+<td align="left">Análisis exploratorio de homicidios en colombia para el año 2017.</td>
+<td align="center"><img src="images/img_documents/img7.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://rpubs.com/Edimer/534624">Accidentalidad en motocicletas - Medellín</a></td>
+<td align="left">Análisis exploratorio de accidentalidad de motocicletas en la ciudad de Medellín, Colombia.</td>
+<td align="center"><img src="images/img_documents/times_series.png" height = 80></td>
+</tr>
+</tbody>
+</table>
 <p><tyear>___________________________________________________________________________________________________________</tyear></p>
 </div>
-<div id="visualization" class="section level2">
-<h2><tyear>Visualization</tyear></h2>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Gráficación con <code>graphics</code> en R
-</h3>
-<img src="images/img_documents/img14.png"><br>
-<p>
-<a href="https://estudior.github.io/guias_descriptiva/8_GraficacionBase.html#(1)"><code>graphics</code>: introducción</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Graficación con <code>lattice</code> en R
-</h3>
-<img src="images/img_documents/visual1.png"><br>
-<p>
-<a href="https://estudior.github.io/guias_descriptiva/9_Graf_lattice.html#(1)"><code>lattice</code>: introducción</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Graficación con <code>ggplot2</code> en R
-</h3>
-<img src="images/img_documents/visual2.png"><br>
-<p>
-<a href="https://estudior.github.io/guias_descriptiva/10_Graf_ggplot.html#(1)"><code>ggplot2</code>: introducción</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Sistemas de graficación con R
-</h3>
-<img src="images/img_documents/img44.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/563530">Gráficos estáticos e interactivos</a>
-</p>
-</div>
-</div>
-<p><br></p>
-<p><tyear>___________________________________________________________________________________________________________</tyear></p>
-</div>
-<div id="data-manipulation" class="section level2">
-<h2><tyear>Data Manipulation</tyear></h2>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Manejo de datos con R
-</h3>
-<img src="images/img_documents/img10.png"><br>
-<p>
-<a href="https://estudior.github.io/guias_descriptiva/7_ManejoDatosR.html#1">Manejo de datos: Introducción</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Mundo R + Tidyverse: I
-</h3>
-<img src="images/img_documents/img90.png"><br>
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i">Datos ordenados con tidyverse</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Mundo R + Tidyverse: II
-</h3>
-<img src="images/img_documents/img98.png"><br>
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i">Datos ordenados con tidyverse</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Estructuración de datos con R
-</h3>
-<img src="images/img_documents/img2.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/515789">Ejemplo con datos del Banco Mundial</a>
-</p>
-</div>
-</div>
-<p><br></p>
-<p><tyear>___________________________________________________________________________________________________________</tyear></p>
-</div>
-<div id="guides-for-r" class="section level2">
-<h2><tyear>Guides for R</tyear></h2>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Introducción a R y RStudio
-</h3>
-<img src="images/img_documents/web.png"><br>
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/1_Intro.html#/introduccion-a-r-y-rstudio">R y Rstudio: introducción</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Ecosistema RMarkdown: I
-</h3>
-<img src="images/img_documents/rmarkdown4.png"><br>
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/1_RMarkdown.html#/ecosistema-r-markdown-i">RMarkdown: Introducción I</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Ecosistema RMarkdown: II
-</h3>
-<img src="images/img_documents/img117.png"><br>
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/1.2_RMarkdown.html#/ecosistema-r-markdown-ii">RMarkdown: Introducción II</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Herramientas de programación
-</h3>
-<img src="images/img_documents/img118.png">
-<p>
-<a href="https://unal-semilleror-facca.github.io/Actividades/GuiasR.html">R, RStudio, Git y Github</a>
-</p>
-</div>
-</div>
-<p><br></p>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Construcción de paquetes con R
-</h3>
-<img src="images/img_documents/img11.png"><br>
-<p>
-<a href="https://edimer-blogr.netlify.com/projects/genr0-1/">Tutorial: creando paquetes en R</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-<code>hexSticker</code> y <code>available</code> en R
-</h3>
-<img src="images/img_documents/img21.png"><br>
-<p>
-<a href="https://edimer-blogr.netlify.com/projects/genr/">Stickers para R</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-<code>LigthGBM</code> en R
-</h3>
-<img src="images/img_documents/img80.png"><br>
-<p>
-<a href="https://rpubs.com/Edimer/589672">Guía de instalación de <code>LigthGBM</code> en windows</a>
-</p>
-</div>
-</div>
-<p><br></p>
-</div>
-<div id="statistics-talks" class="section level2">
-<h2><tyear>Statistics Talks </tyear></h2>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Introducción a R y RStudio
-</h3>
-<img src="images/img_documents/web.png"><br>
-<p>
-<a href="/R-Unal-Palmira/diapositivas/slides-unal-palmira.html">Ciencia de Datos con R: Introducción</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Ecosistema RMarkdown: I
-</h3>
-<img src="images/img_documents/rmarkdown4.png"><br>
-<p>
-<a href="">RMarkdown: Introducción I</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Ecosistema RMarkdown: II
-</h3>
-<img src="images/img_documents/img117.png"><br>
-<p>
-<a href="">RMarkdown: Introducción II</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-Herramientas de programación
-</h3>
-<img src="images/img_documents/img118.png">
-<p>
-<a href="">R, RStudio, Git y Github</a>
-</p>
-</div>
-</div>
-<p><br></p>
-<div class="col-container">
-
-<div class="column">
-<div class="card">
-<h3>
-Construcción de paquetes con R
-</h3>
-<img src="images/img_documents/img11.png"><br>
-<p>
-<a href="">Tutorial: creando paquetes en R</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-<code>hexSticker</code> y <code>available</code> en R
-</h3>
-<img src="images/img_documents/img21.png"><br>
-<p>
-<a href="">Stickers para R</a>
-</p>
-</div>
-</div>
-<div class="column">
-<div class="card">
-<h3>
-<code>LigthGBM</code> en R
-</h3>
-<img src="images/img_documents/img80.png"><br>
-<p>
-<a href="">Guía de instalación de <code>LigthGBM</code> en windows</a>
-</p>
-</div>
-</div>
-<p><br></p>
+<div id="data-manipulation-visualization-and-guides-for-r" class="section level2">
+<h2><tyear>Data Manipulation, Visualization and Guides for R</tyear></h2>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="33%" />
+<col width="40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Documento</th>
+<th align="left">Descripción</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/1_Intro.html#/introduccion-a-r-y-rstudio">R y Rstudio: introducción</a></td>
+<td align="left">Introducción a R y RStudio.</td>
+<td align="center"><img src="images/img_documents/web.png"  height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/1_RMarkdown.html#/ecosistema-r-markdown-i">RMarkdown: Introducción I</a></td>
+<td align="left">Uso de RMarkdown para investigación reproducible (parte 1).</td>
+<td align="center"><img src="images/img_documents/rmarkdown4.png"  height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/1.2_RMarkdown.html#/ecosistema-r-markdown-ii">RMarkdown: Introducción II</a></td>
+<td align="left">Uso de RMarkdown para investigación reproducible (parte 2).</td>
+<td align="center"><img src="images/img_documents/img117.png"  height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/GuiasR.html">R, RStudio, Git y Github</a></td>
+<td align="left">Usos de Git desde R con RStudio para control de versiones.</td>
+<td align="center"><img src="images/img_documents/img118.png"  height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://estudior.github.io/guias_descriptiva/7_ManejoDatosR.html#1">Manejo de datos: Introducción</a></td>
+<td align="left">Importación, exportación y manejo de datos con R.</td>
+<td align="center"><img src="images/img_documents/img10.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i">Datos ordenados con tidyverse</a></td>
+<td align="left"><em>Tidy data</em> con R a través del <em>tidyverse</em>.</td>
+<td align="center"><img src="images/img_documents/img90.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i">Datos ordenados con tidyverse</a></td>
+<td align="left"><em>Tidy data</em> con R a través del <em>tidyverse</em>.</td>
+<td align="center"><img src="images/img_documents/img98.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://rpubs.com/Edimer/515789">Ejemplo con datos del Banco Mundial</a></td>
+<td align="left">Depuración y estructuración de datos con <em>tidyverse</em> en R.</td>
+<td align="center"><img src="images/img_documents/img2.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://estudior.github.io/guias_descriptiva/8_GraficacionBase.html#(1)"><code>graphics</code>: introducción</a></td>
+<td align="left">Usos de graficación básica con R.</td>
+<td align="center"><img src="images/img_documents/img14.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://estudior.github.io/guias_descriptiva/9_Graf_lattice.html#(1)"><code>lattice</code>: introducción</a></td>
+<td align="left">Ejemplo de usos de la biblioteca <code>lattice</code> en R.</td>
+<td align="center"><img src="images/img_documents/visual1.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://estudior.github.io/guias_descriptiva/10_Graf_ggplot.html#(1)"><code>ggplot2</code>: introducción</a></td>
+<td align="left">Usos de la gramática de gráficas con <code>ggplot2</code> en R.</td>
+<td align="center"><img src="images/img_documents/visual2.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://rpubs.com/Edimer/563530">Gráficos estáticos e interactivos</a></td>
+<td align="left">Ejemplos de bibliotecas para graficación interactiva con R.</td>
+<td align="center"><img src="images/img_documents/img44.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://edimer.github.io/Stat/devtools.html">Tutorial: creando paquetes en R</a></td>
+<td align="left">Creación de paquetes/bibliotecas con R.</td>
+<td align="center"><img src="images/img_documents/img11.png" height = 80></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://edimer.github.io/Stat/guiaBiblioteca.html">Stickers para R</a></td>
+<td align="left">Diseño de logos o stickers para bibliotecas con R.</td>
+<td align="center"><img src="images/img_documents/img21.png" height = 80></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://rpubs.com/Edimer/589672">Guía de instalación de <code>LigthGBM</code> en windows</a></td>
+<td align="left">Instalación de LightGBM en R.</td>
+<td align="center"><img src="images/img_documents/img80.png" height = 80></td>
+</tr>
+</tbody>
+</table>
 <p><tyear>___________________________________________________________________________________________________________</tyear></p>
 </div>
 

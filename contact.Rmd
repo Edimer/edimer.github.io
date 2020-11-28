@@ -13,6 +13,7 @@ title: Contact
 - [Edimer Rpubs](https://rpubs.com/Edimer)
 - Other websites
     - [Bioestadística 1 UNAL Medellín](https://bioestadistica.github.io/)
+    - [R Project en Experimentación Animal](https://rproject-udea.netlify.app/)
     - [Estudio R UNAL Medellín](https://estudior.github.io/)
     - [Semillero de R - Facultad de Ciencias Agrarias, UNAL Medellín](https://unal-semilleror-facca.github.io/)
 </div>

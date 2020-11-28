@@ -1,0 +1,9 @@
+---
+title: <h1></h1>
+---
+
+## <tyear>Statistics Talks </tyear>
+
+| Documento | Descripción | |
+| :--- | :---- | :----: |
+| [Ciencia de Datos con R: usos en el sector agropecuario](https://edimer.github.io/talks/R-Unal-Palmira/diapositivas/slides-unal-palmira.html) | Charla acerca de Ciencia de Datos y usos en el sector agropecuario (Octubre 2020). |  <img src="images/img_documents/img65.png" height = 80> |
