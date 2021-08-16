@@ -10,9 +10,9 @@ title: <h1>About me</h1>
 email: edavidja@unal.edu.co  
 <br>
 _______________________________________  
-*Asistente de Investigación y Desarrollo (I+D)*   
-[Solla S.A.](https://www.solla.com/)  
-email: edavid@solla.com
+*Analista de Datos*   
+[Grupo Éxito](https://www.grupoexito.com.co/es)  
+email: edavidj@grupo-exito.com
 </div>
 
 <div class = "col-md-4">
@@ -22,11 +22,12 @@ library(grid)
 img <- readPNG("images/logo_unal.png")
 grid.raster(img)
 ```
-
+<br>
+<br>
 ```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
 library(png)
 library(grid)
-img <- readPNG("images/logo_solla.png")
+img <- readPNG("images/logo-exito.png")
 grid.raster(img)
 ```
 </div>
@@ -36,6 +37,7 @@ grid.raster(img)
 
   - [Zootecnia - Universidad Nacional de Colombia sede Medellín](https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia), 2015
   - [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134), 2016.  
+  - [Maestría en Inteligencia Analítica de Datos - Universidad de los Andes](https://industrial.uniandes.edu.co/es/programa-academico/maestria-en-inteligencia-analitica-de-datos-MIAD), *en curso*.  
 
 ## Teaching
 
