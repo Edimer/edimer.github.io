@@ -40,6 +40,4 @@ title: <h1></h1>
 
 ## Articles
 
-<center>
-![](images/coming.gif)
-</center>
+- [Music modulates emotional responses in growing pigs](https://www.nature.com/articles/s41598-022-07300-6)

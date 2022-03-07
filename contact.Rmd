@@ -7,7 +7,7 @@ title: Contact
 <div class = "col-md-5">
 - email:
     - edavidja@unal.edu.co
-    - edavidj@grupo-exito.com
+    - edimer.david@datalytics.com
 - [Curriculum vitae Colciencias](http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001631243)
 - [Edimer Github](https://github.com/Edimer)
 - [Edimer Rpubs](https://rpubs.com/Edimer)
