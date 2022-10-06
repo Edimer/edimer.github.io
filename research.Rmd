@@ -4,30 +4,38 @@ title: <h1></h1>
 
 ## Interests
 
-  - Data Science
-      - *Machine Learning*
-      - *Big Data*
-      - *Deep Learning*
-      - *Data Wrangling*
-      - *Data visualization*
-      - *Software development*
-  - Bioinformatics  
-  - Time Series
-  - Design and analysis of experiments
+<div class="row">
 
-## Investigation Group 
+<div class="col-sm-5">
 
-<div class = "row">
-<div class = "col-md-5">
-<br>
-<br>
-<br>
-<textbig>[Nutri-Solla](https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013946)</textbig>  
+<ul>
+  <li><i>Mathematics</i></li>
+  <li><i>Machine Learning</i></li>
+  <li><i>Big Data</i></li>
+  <li><i>Deep Learning</i></li>
+  <li><i>Data visualization</i></li>
+  <li><i>Software development</i></li>
+  <li><i>Bioinformatics</i></li>
+  <li><i>Time Series</i></li>
+  <li><i>Design and analysis of experiments</i></li>
+</ul>  
+
 </div>
-<div class = "col-md-4">
-![](images/group_inv5.gif)
+
+<div class="col-sm-4">
+
+<center>
+<img src = "images/group_inv5.gif"/>
+</center>
+
 </div>
+
 </div>
+
+## Articles
+
+- Zapata Cardona, J., Ceballos, M.C., Tarazona Morales, A.M. et al. *Music modulates emotional responses in growing pigs*. Sci Rep 12, 3382 (2022). https://doi.org/10.1038/s41598-022-07300-6
+- Gómez Londoño, J., Cerón-Muñoz, M.F., Duque Noreña, J.H., David Jaramillo, E., Múnera Bedoya, O.D. *Caracterización de Sistemas de Producción Industrial de Pollo de Engorde en el Departamento de Santander- Colombia*. https://doi.org/10.22507/rli.v19n1a5
 
 ## Memory Chapters (Congress)
 
@@ -37,8 +45,3 @@ title: <h1></h1>
 - <tyear>La Habana, Cuba (2015).</tyear> *Descripción de la influencia de orden de parto sobre el crecimiento en animales de la raza Lucerna y sus cruces.* [V Congreso Internacional de producción animal tropical 2015.](http://www.cipav.org.co/pdf/VcongresoInternalProdTropAnim2015.pdf) *Edimer David Jaramillo*, *Luis Gabriel González Herrera*.
 - <tyear>Villavicencio, Colombia (2015).</tyear> *Efecto de época de nacimiento en la curva de crecimiento de la raza Lucerna, utilizando polinomios de Legendre*. [XVI Simposio Iberoamericano sobre conservación y utilización de recursos zoogenéticos - página 93.](https://conbiand2015colombia.jimdo.com/memorias/) *Edimer David Jaramillo*, *Luis Gabriel González Herrera*.
 - <tyear>Medellín, Colombia (2015).</tyear> *Description of the influence of time of birth, year of birth, farm, race, and their interactions over growth in Lucerne animals breed and its crosses.* [*ENICIP 2015 - Mejoramiento Genético*](https://aprendeenlinea.udea.edu.co/revistas/index.php/rccp/article/download/324952/20782520). *Edimer David Jaramillo*, *Luis Gabriel González Herrera*.
-
-## Articles
-
-- Zapata Cardona, J., Ceballos, M.C., Tarazona Morales, A.M. et al. *Music modulates emotional responses in growing pigs*. Sci Rep 12, 3382 (2022). https://doi.org/10.1038/s41598-022-07300-6
-- Gómez Londoño, J., Cerón-Muñoz, M.F., Duque Noreña, J.H., David Jaramillo, E., Múnera Bedoya, O.D. *Caracterización de Sistemas de Producción Industrial de Pollo de Engorde en el Departamento de Santander- Colombia*. https://doi.org/10.22507/rli.v19n1a5

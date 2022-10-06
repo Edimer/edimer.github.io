@@ -2,77 +2,48 @@
 title: <h1>About me</h1>
 ---
 
-<div class = "row">
+::: row
+::: col-md-5
+*Zootecnista*\
+[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)\
+email: [edavidja\@unal.edu.co](mailto:edavidja@unal.edu.co){.email}\
+<br> \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+*Científico de Datos*\
+[Datalytics](https://www.datalytics.com/)\
+email: [edimer.david\@datalytics.com](mailto:edimer.david@datalytics.com){.email}
+:::
 
-<div class = "col-md-5">
-*Zootecnista*    
-[Universidad Nacional de Colombia sede Medellín](http://medellin.unal.edu.co/)   
-email: edavidja@unal.edu.co  
-<br>
-_______________________________________  
-*Científico de Datos*   
-[Datalytics](https://www.datalytics.com/)  
-email: edimer.david@datalytics.com
-</div>
-
-<div class = "col-md-4">
+::: col-md-4
 ```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
 library(png)
 library(grid)
 img <- readPNG("images/logo_unal.png")
 grid.raster(img)
 ```
-<br>
-<br>
+
+<br> <br>
+
 ```{r fig.asp=0.35, echo=FALSE, fig.align='left'}
 library(png)
 library(grid)
 img <- readPNG("images/DatalyticsLogo.png")
 grid.raster(img)
 ```
-</div>
-</div>
+:::
+:::
 
 ## Education
 
-  - [Zootecnia - Universidad Nacional de Colombia sede Medellín](https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia), 2015
-  - [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134), 2016.  
+-   [Zootecnia - Universidad Nacional de Colombia sede Medellín](https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia), 2015
+-   [Especialización en estadística - Universidad Nacional de Colombia sede Medellín](http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134), 2016.
 
 ## Teaching
 
-  - 2022
-    - Statistics - [University of Antioquia](http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/)
-    - Design of Experiments - [University of Antioquia]((http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/))
-  - 2021
-    - Statistics - [University of Antioquia](http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/)
-    - R-Project in Animal Experimentation - [University of Antioquia](http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/)
-  - 2020
-      - R-Project in Animal Experimentation - [University of Antioquia](http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/)
-  - 2019
-      - Introduction to data analysis with R - Level 1 - [National University - Medellín, Colombia](https://medellin.unal.edu.co/)   
-  - 2018
-      - Biostatistics 1 - [National University - Medellín, Colombia](https://medellin.unal.edu.co/)   
-      - Introduction to data analysis with R - Level 1 - [National University - Medellín, Colombia](https://medellin.unal.edu.co/)
-      - Introduction to data analysis with R - Level 2 - [National University - Medellín, Colombia](https://medellin.unal.edu.co/)
-        
-
-## Experience  
-
-  - Statistical consulting
-      - Analysis of data of zootechnical interest in companies of the agricultural sector in Colombia.
-      - Statistical analysis of microbiological tests on sanitary quality of meat.
-      - Statistical application to parameters of animal welfare in horses.
-  - Participation in planning and formulation of research projects.
-  - Machine Learning uses in agriculture. Pathology detection in cows, satellite image analysis and biomusicology.  
-  - Design and statistical analysis of experiments (agronomic experimentation, data collection, use of probabilistic models)
-  - Software for data analysis
-      - [R](https://cran.r-project.org/)
-      - [Python](https://www.python.org/)
-      - [Julia](https://julialang.org/)
-      - [TensorFlow](https://www.tensorflow.org/)
-      - [Keras](https://keras.io/)
-      - [H2o](https://www.h2o.ai/)
-      - Integrated development environments (IDEs)
-          - [RStudio](https://www.rstudio.com/)
-          - [Jupyter](http://jupyter.org/)
-          - [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
+|    Year     | Course                                         |                                                                                                                                                                       University                                                                                                                                                                       |
+|:----------------:|:---------------------|:------------------------------:|
+|    2022     | Design of Experiments                          | [University of Antioquia](http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/) |
+| 2021 - 2022 | Statistics                                     | [University of Antioquia](http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/) |
+| 2020 - 2022 | R-Project in Animal Experimentation            | [University of Antioquia](http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/) |
+|    2018     | Introduction to data analysis with R - Level 1 |                                                                                                                                       [National University - Medellín, Colombia](https://medellin.unal.edu.co/)                                                                                                                                        |
+|    2018     | Introduction to data analysis with R - Level 2 |                                                                                                                                       [National University - Medellín, Colombia](https://medellin.unal.edu.co/)                                                                                                                                        |
+|    2018     | Biostatistics 1                                |                                                                                                                                       [National University - Medellín, Colombia](https://medellin.unal.edu.co/)                                                                                                                                        |
