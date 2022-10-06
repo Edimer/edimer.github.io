@@ -13,7 +13,7 @@
 
 <title>about.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -235,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -252,7 +260,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-male"></span>
      
     About
@@ -284,7 +292,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-area-chart"></span>
      
     Statistical Computing
@@ -343,22 +351,32 @@ About me
 <div class="row">
 <div class="col-md-5">
 <p><em>Zootecnista</em><br />
-<a href="http://medellin.unal.edu.co/">Universidad Nacional de Colombia sede Medellín</a><br />
-email: <a href="mailto:edavidja@unal.edu.co" class="email">edavidja@unal.edu.co</a><br />
+<a href="http://medellin.unal.edu.co/">Universidad Nacional de Colombia
+sede Medellín</a><br />
+email: <a href="mailto:edavidja@unal.edu.co"
+class="email">edavidja@unal.edu.co</a><br />
 <br> _______________________________________<br />
 <em>Científico de Datos</em><br />
 <a href="https://www.datalytics.com/">Datalytics</a><br />
-email: <a href="mailto:edimer.david@datalytics.com" class="email">edimer.david@datalytics.com</a></p>
+email: <a href="mailto:edimer.david@datalytics.com"
+class="email">edimer.david@datalytics.com</a></p>
 </div>
 <div class="col-md-4">
-<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto auto auto 0;" /> <br> <br> <img src="about_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto auto auto 0;" />
+<br> <br>
+<img src="about_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto auto auto 0;" /></p>
 </div>
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
 <ul>
-<li><a href="https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia">Zootecnia - Universidad Nacional de Colombia sede Medellín</a>, 2015</li>
-<li><a href="http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134">Especialización en estadística - Universidad Nacional de Colombia sede Medellín</a>, 2016.</li>
+<li><a
+href="https://cienciasagrarias.medellin.unal.edu.co/index.php/zootecnia">Zootecnia
+- Universidad Nacional de Colombia sede Medellín</a>, 2015</li>
+<li><a
+href="http://ciencias.medellin.unal.edu.co/escuelas/estadistica/component/progracad/?snies=134">Especialización
+en estadística - Universidad Nacional de Colombia sede Medellín</a>,
+2016.</li>
 </ul>
 </div>
 <div id="teaching" class="section level2">
@@ -366,29 +384,46 @@ email: <a href="mailto:edimer.david@datalytics.com" class="email">edimer.david@d
 <ul>
 <li>2022
 <ul>
-<li>Statistics - <a href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University of Antioquia</a></li>
-<li>Design of Experiments - <a href="(http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/)">University of Antioquia</a></li>
+<li>Statistics - <a
+href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University
+of Antioquia</a></li>
+<li>Design of Experiments - <a
+href="(http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/)">University
+of Antioquia</a></li>
 </ul></li>
 <li>2021
 <ul>
-<li>Statistics - <a href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University of Antioquia</a></li>
-<li>R-Project in Animal Experimentation - <a href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University of Antioquia</a></li>
+<li>Statistics - <a
+href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University
+of Antioquia</a></li>
+<li>R-Project in Animal Experimentation - <a
+href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University
+of Antioquia</a></li>
 </ul></li>
 <li>2020
 <ul>
-<li>R-Project in Animal Experimentation - <a href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University of Antioquia</a></li>
+<li>R-Project in Animal Experimentation - <a
+href="http://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_hQVbOiCY6q5BXCAKJhixGwOmFkyhpCD8vo0aExMfs5u5554MoihDtMmHiud9JZtc6P1Ap0c88x2buBBhwEsg2zQK3N0aIPbQ_h9AdQxfhoDu0zvyMsDK9rQhSDZp7CeL0HkCPxwholzI4vEuaYoJ5ogqdmaKKeuq9Lns-7abm2DCOI4Wl5ILZp1kbcKnSim7HmXvJGrrDC6eGCJiGDfCwP1f/dz/d5/L2dBISEvZ0FBIS9nQSEh/">University
+of Antioquia</a></li>
 </ul></li>
 <li>2019
 <ul>
-<li>Introduction to data analysis with R - Level 1 - <a href="https://medellin.unal.edu.co/">National University - Medellín, Colombia</a><br />
+<li>Introduction to data analysis with R - Level 1 - <a
+href="https://medellin.unal.edu.co/">National University - Medellín,
+Colombia</a><br />
 </li>
 </ul></li>
 <li>2018
 <ul>
-<li>Biostatistics 1 - <a href="https://medellin.unal.edu.co/">National University - Medellín, Colombia</a><br />
+<li>Biostatistics 1 - <a href="https://medellin.unal.edu.co/">National
+University - Medellín, Colombia</a><br />
 </li>
-<li>Introduction to data analysis with R - Level 1 - <a href="https://medellin.unal.edu.co/">National University - Medellín, Colombia</a></li>
-<li>Introduction to data analysis with R - Level 2 - <a href="https://medellin.unal.edu.co/">National University - Medellín, Colombia</a></li>
+<li>Introduction to data analysis with R - Level 1 - <a
+href="https://medellin.unal.edu.co/">National University - Medellín,
+Colombia</a></li>
+<li>Introduction to data analysis with R - Level 2 - <a
+href="https://medellin.unal.edu.co/">National University - Medellín,
+Colombia</a></li>
 </ul></li>
 </ul>
 </div>
@@ -397,14 +432,19 @@ email: <a href="mailto:edimer.david@datalytics.com" class="email">edimer.david@d
 <ul>
 <li>Statistical consulting
 <ul>
-<li>Analysis of data of zootechnical interest in companies of the agricultural sector in Colombia.</li>
-<li>Statistical analysis of microbiological tests on sanitary quality of meat.</li>
-<li>Statistical application to parameters of animal welfare in horses.</li>
+<li>Analysis of data of zootechnical interest in companies of the
+agricultural sector in Colombia.</li>
+<li>Statistical analysis of microbiological tests on sanitary quality of
+meat.</li>
+<li>Statistical application to parameters of animal welfare in
+horses.</li>
 </ul></li>
 <li>Participation in planning and formulation of research projects.</li>
-<li>Machine Learning uses in agriculture. Pathology detection in cows, satellite image analysis and biomusicology.<br />
+<li>Machine Learning uses in agriculture. Pathology detection in cows,
+satellite image analysis and biomusicology.<br />
 </li>
-<li>Design and statistical analysis of experiments (agronomic experimentation, data collection, use of probabilistic models)</li>
+<li>Design and statistical analysis of experiments (agronomic
+experimentation, data collection, use of probabilistic models)</li>
 <li>Software for data analysis
 <ul>
 <li><a href="https://cran.r-project.org/">R</a></li>
@@ -417,7 +457,8 @@ email: <a href="mailto:edimer.david@datalytics.com" class="email">edimer.david@d
 <ul>
 <li><a href="https://www.rstudio.com/">RStudio</a></li>
 <li><a href="http://jupyter.org/">Jupyter</a></li>
-<li><a href="https://colab.research.google.com/notebooks/welcome.ipynb">Colaboratory</a></li>
+<li><a
+href="https://colab.research.google.com/notebooks/welcome.ipynb">Colaboratory</a></li>
 </ul></li>
 </ul></li>
 </ul>
