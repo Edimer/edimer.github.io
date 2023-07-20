@@ -1,15 +1,10 @@
----
-title: <h1></h1>
----
-
-## <tyear>Statistical Learning</tyear>
+<h2>Statistical Learning - Machine Learning - Statistics - AI</h2>
 
 | Documento | Descripción | |
 | :--- | :---- | :----: |
 | [Machine Learning con `caret` y `keras`](https://rpubs.com/Edimer/536034) | Ejemplo de uso en clasificación de cáncer de seno. |  <img src="images/img_documents/img34.png" height = 80> |
 | [Predicción de abandono de clientes](https://www.rpubs.com/Edimer/564284) |  Ejemplo de uso de TensorFlow para predicción de abandono de clientes. | <img src="images/img_documents/img45.png" height = 80> |
 | [El Modelo Lineal: Mínimos Cuadrados ](documents_R/LinearModels_LeastSquares/LinearModels_LeastSqauares.html) | Historia corta, teoría del modelo lineal y  estimación por mínimos cuadrados | <img src="images/img_documents/img66.png" height = 80> |
-| [Gasto militar vs gasto en educación](https://unal-semilleror-facca.github.io/Actividades/regsimple.html#1)  | Ejemplo de Regresión Lineal Simple (RLS) con datos del Banco Mundial.  | <img src="images/img_documents/reglineal2.png" height = 80> |
 | [Comparación de modelos: PLOS ONE](https://rpubs.com/Edimer/565984) | Modelos de Regresión Lineal Múltiple con datos de artículo publicado en PLOS One. | <img src="images/img_documents/img130.png" height = 80> |
 | [Detección de oxalatos en orina](https://rpubs.com/Edimer/540368)  | Comparación de modelos de *Regresión Logística* y *Regresión Probit*. | <img src="images/img_documents/rlogist2.png" height = 80> |
 | [Procesamiento raster con R](https://rpubs.com/Edimer/519971) | Análisis geoespacial con r, ejemplo de procesamiento *raster* con machine learning no supervisado.| <img src="images/img_documents/img136.png" height = 80> |
@@ -18,51 +13,9 @@ title: <h1></h1>
 | [Clasificación de correos spam](https://rpubs.com/Edimer/534566) | Comparación de Árboles de clasificación, Support Vector Machine y Análisis Discriminante Lineal.   | <img src="images/img_documents/img141.png" height = 80> |
 | [Clasificación de tweets - Covid19](https://rpubs.com/Edimer/612558) | Ejemplo de *minería de texto (text mining)* con tweets sobre Covid-19. | <img src="images/img_documents/img3.png" height = 80> |
 | [Casos de COVID-19 en Colombia. Arima forecast.](https://rpubs.com/PaolaB/588565) | Ejemplo de pronósticos con modelo Arima. | <img src="images/img_documents/covid.png" height = 80> |
-
-<tyear>___________________________________________________________________________________________________________</tyear>
-
-## <tyear>Statistical Inference</tyear>
-
-| Documento | Descripción | |
-| :--- | :---- | :----: |
 | [Ejemplos de inferencia estadística](https://bioestadistica.github.io/Temas/20_ejemplos.html) | Ejemplos de inferencia sobre parámetros $\mu$, $\sigma$ y $p$ (proporciones). |  <img src="images/img_documents/img88.png" height = 80> |
 | [Introducción al diseño de experimentos con R](https://estudior.github.io/guias_experimentos/1_Introduccion.html#(1)) | Teoría sobre diseño estadístico de experimentos. | <img src="images/img_documents/img76.png" height = 80> |
 |  |  | |
-
-
-<tyear>___________________________________________________________________________________________________________</tyear>
-
-## <tyear>Exploratory Data Analysis</tyear>
-
-| Documento | Descripción | |
-| :--- | :---- | :----: |
-| [Ejemplo de correlaciones](https://unal-semilleror-facca.github.io/Actividades/CorRLS.html) | Diagramas de dispersión y correlogramas con datos del Banco Mundial.  | <img src="images/img_documents/img79.png" height = 80> |
-| [Casos y muertes de VIH en Colombia](https://rpubs.com/Edimer/326811) | Análisis descriptivo y exploratorio de VIH en Colombia. | <img src="images/img_documents/img39.png" height = 80> |
-| [Parque automotor vs calidad de aire en Colombia](https://rpubs.com/Edimer/481799) | Análisis exploratorio de calidad de aire en Colombia vs parque automotor. | <img src="images/img_documents/explorer5.png" height = 80> |
-| [Homicidios en Colombia año 2017](https://rpubs.com/Edimer/467653) | Análisis exploratorio de homicidios en colombia para el año 2017. | <img src="images/img_documents/img7.png" height = 80> |
-| [Accidentalidad en motocicletas - Medellín](https://rpubs.com/Edimer/534624) | Análisis exploratorio de accidentalidad de motocicletas en la ciudad de Medellín, Colombia. | <img src="images/img_documents/times_series.png" height = 80> |
-
-<tyear>___________________________________________________________________________________________________________</tyear>
-
-## <tyear>Data Manipulation, Visualization and Guides for R</tyear>
-
-| Documento | Descripción | |
-| :--- | :---- | :----: |
-| [R y Rstudio: introducción](https://unal-semilleror-facca.github.io/Actividades/1_Intro.html#/introduccion-a-r-y-rstudio) | Introducción a R y RStudio.| <img src="images/img_documents/web.png"  height = 80> |
-| [RMarkdown: Introducción I](https://unal-semilleror-facca.github.io/Actividades/1_RMarkdown.html#/ecosistema-r-markdown-i) | Uso de RMarkdown para investigación reproducible (parte 1). | <img src="images/img_documents/rmarkdown4.png"  height = 80> |
-| [RMarkdown: Introducción II](https://unal-semilleror-facca.github.io/Actividades/1.2_RMarkdown.html#/ecosistema-r-markdown-ii) | Uso de RMarkdown para investigación reproducible (parte 2). | <img src="images/img_documents/img117.png"  height = 80> |
-| [R, RStudio, Git y Github](https://unal-semilleror-facca.github.io/Actividades/GuiasR.html) | Usos de Git desde R con RStudio para control de versiones. | <img src="images/img_documents/img118.png"  height = 80> |
-| [Manejo de datos: Introducción](https://estudior.github.io/guias_descriptiva/7_ManejoDatosR.html#1) | Importación, exportación y manejo de datos con R.| <img src="images/img_documents/img10.png" height = 80> |
-| [Datos ordenados con tidyverse](https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i) | *Tidy data* con R a través del *tidyverse*. | <img src="images/img_documents/img90.png" height = 80> |
-| [Datos ordenados con tidyverse](https://unal-semilleror-facca.github.io/Actividades/2_MundoR.html#/mundo-r-tidyverse-i) | *Tidy data* con R a través del *tidyverse*. | <img src="images/img_documents/img98.png" height = 80> |
-| [Ejemplo con datos del Banco Mundial](https://rpubs.com/Edimer/515789) | Depuración y estructuración de datos con *tidyverse* en R.| <img src="images/img_documents/img2.png" height = 80> |
-| [`graphics`: introducción](https://estudior.github.io/guias_descriptiva/8_GraficacionBase.html#(1)) | Usos de graficación básica con R.| <img src="images/img_documents/img14.png" height = 80> |
-| [`lattice`: introducción](https://estudior.github.io/guias_descriptiva/9_Graf_lattice.html#(1))  | Ejemplo de usos de la biblioteca `lattice` en R.| <img src="images/img_documents/visual1.png" height = 80> |
-| [`ggplot2`: introducción](https://estudior.github.io/guias_descriptiva/10_Graf_ggplot.html#(1))  | Usos de la gramática de gráficas con `ggplot2` en R. | <img src="images/img_documents/visual2.png" height = 80> |
-| [Gráficos estáticos e interactivos](https://rpubs.com/Edimer/563530) | Ejemplos de bibliotecas para graficación interactiva con R. | <img src="images/img_documents/img44.png" height = 80> |
-| [Tutorial: creando paquetes en R](https://edimer.github.io/Stat/devtools.html) | Creación de paquetes/bibliotecas con R. | <img src="images/img_documents/img11.png" height = 80> |
-| [Stickers para R](https://edimer.github.io/Stat/guiaBiblioteca.html) | Diseño de logos o stickers para bibliotecas con R. | <img src="images/img_documents/img21.png" height = 80> |
-| [Guía de instalación de `LigthGBM` en windows](https://rpubs.com/Edimer/589672)  | Instalación de LightGBM en R. | <img src="images/img_documents/img80.png" height = 80>  |
 
 
 <tyear>___________________________________________________________________________________________________________</tyear>

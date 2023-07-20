@@ -1,8 +1,4 @@
----
-title: <h1></h1>
----
-
-## <tyear>Statistics Talks </tyear>
+<h2><tyear>Statistics Talks</tyear></h2>
 
 | Diapositivas | Descripción | |
 | :--- | :---- | :----: |
