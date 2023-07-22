@@ -7,8 +7,6 @@
 
 <gradio-app src="https://sidereus-mastocitoma-udea.hf.space"></gradio-app>
 
-<tyear>___________________________________________________________________________________________________________</tyear>
-
 <h2>[Saber 11 - Colombia](https://huggingface.co/spaces/Sidereus/Pruebas-Saber11-Colombia)</h2>
 
 <iframe
@@ -18,5 +16,3 @@
 	height="450"
 ></iframe>
 
-
-<tyear>___________________________________________________________________________________________________________</tyear>

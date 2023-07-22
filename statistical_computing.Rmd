@@ -16,6 +16,3 @@
 | [Ejemplos de inferencia estadística](https://bioestadistica.github.io/Temas/20_ejemplos.html) | Ejemplos de inferencia sobre parámetros $\mu$, $\sigma$ y $p$ (proporciones). |  <img src="images/img_documents/img88.png" height = 80> |
 | [Introducción al diseño de experimentos con R](https://estudior.github.io/guias_experimentos/1_Introduccion.html#(1)) | Teoría sobre diseño estadístico de experimentos. | <img src="images/img_documents/img76.png" height = 80> |
 |  |  | |
-
-
-<tyear>___________________________________________________________________________________________________________</tyear>
