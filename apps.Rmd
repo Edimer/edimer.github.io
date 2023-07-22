@@ -9,10 +9,10 @@
 
 <h2>[Saber 11 - Colombia](https://huggingface.co/spaces/Sidereus/Pruebas-Saber11-Colombia)</h2>
 
+<div class="h_iframe">
 <iframe
 	src="https://sidereus-pruebas-saber11-colombia.hf.space"
 	frameborder="0"
-	width="850"
-	height="450"
+	height="500"
 ></iframe>
-
+</div>
