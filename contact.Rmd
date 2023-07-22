@@ -10,6 +10,7 @@ title: Contact
     - edimer.davidj@udea.edu.co
     - edimer.david@datalytics.com
 - [Edimer Github](https://github.com/Edimer)
+- [Edimer Hugging Face](https://huggingface.co/Sidereus)
 - [Edimer Rpubs](https://rpubs.com/Edimer)
 - Other websites
     - [Bioestadística 1 UNAL Medellín](https://bioestadistica.github.io/)

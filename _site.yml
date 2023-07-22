@@ -21,12 +21,15 @@ navbar:
   - text: Statistical Computing
     icon: fa-area-chart 
     menu:
-    - text: Examples
+    - text: Documents
       href: statistical_computing.html
       icon: fa-file-code-o 
     - text: Statistics Talks
       href: talks_statistics.html
-      icon: fa-file-text-o   
+      icon: fa-file-text-o
+    - text: Apps
+      href: apps.html
+      icon: fas fa-sitemap
   - text: Blog R+Py
     href: https://blogrpy.netlify.com/
     icon: fas fa-pen-alt    

@@ -1,0 +1,22 @@
+<h2>[Classification of tumors with computer vision](https://huggingface.co/spaces/Sidereus/mastocitoma_udea)</h2>
+
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/3.38.0/gradio.js"
+></script>
+
+<gradio-app src="https://sidereus-mastocitoma-udea.hf.space"></gradio-app>
+
+<tyear>___________________________________________________________________________________________________________</tyear>
+
+<h2>[Saber 11 - Colombia](https://huggingface.co/spaces/Sidereus/Pruebas-Saber11-Colombia)</h2>
+
+<iframe
+	src="https://sidereus-pruebas-saber11-colombia.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe>
+
+
+<tyear>___________________________________________________________________________________________________________</tyear>
