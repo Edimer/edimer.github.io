@@ -12,6 +12,7 @@ title: Contact
 - [Edimer Github](https://github.com/Edimer)
 - [Edimer Hugging Face](https://huggingface.co/Sidereus)
 - [Edimer Rpubs](https://rpubs.com/Edimer)
+- [Edimer quarto.pub](https://edimer.quarto.pub/)
 - Other websites
     - [Bioestadística 1 UNAL Medellín](https://bioestadistica.github.io/)
     - [Cursos Universidad de Antioquia](https://rproject-udea.netlify.app/)
